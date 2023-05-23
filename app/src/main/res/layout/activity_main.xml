@@ -45,7 +45,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="25dp"
                         android:src="@drawable/heart">
 
@@ -56,9 +56,10 @@
                         android:gravity="center"
                         android:padding="10dp"
                         android:fontFamily="@font/raleway_extrabold"
-                        android:textSize="24dp"
-                        android:layout_marginLeft="90dp"
+                        android:textSize="24sp"
+                        android:layout_marginStart="90dp"
                         android:text="halo" />
+
 
                 </androidx.cardview.widget.CardView>
 
@@ -79,7 +80,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="25dp"
                         android:src="@drawable/heart">
 
@@ -90,8 +91,8 @@
                         android:gravity="center"
                         android:padding="10dp"
                         android:fontFamily="@font/raleway_extrabold"
-                        android:textSize="24dp"
-                        android:layout_marginLeft="90dp"
+                        android:textSize="24sp"
+                        android:layout_marginStart="90dp"
                         android:text="halo" />
 
                 </androidx.cardview.widget.CardView>
@@ -115,7 +116,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="25dp"
                         android:src="@drawable/heart">
 
@@ -126,8 +127,8 @@
                         android:gravity="center"
                         android:padding="10dp"
                         android:fontFamily="@font/raleway_extrabold"
-                        android:textSize="24dp"
-                        android:layout_marginLeft="90dp"
+                        android:textSize="24sp"
+                        android:layout_marginStart="90dp"
                         android:text="halo" />
 
                 </androidx.cardview.widget.CardView>
@@ -150,7 +151,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
                         android:layout_marginTop="25dp"
                         android:src="@drawable/heart">
 
@@ -161,8 +162,8 @@
                         android:gravity="center"
                         android:padding="10dp"
                         android:fontFamily="@font/raleway_extrabold"
-                        android:textSize="24dp"
-                        android:layout_marginLeft="90dp"
+                        android:textSize="24sp"
+                        android:layout_marginStart="90dp"
                         android:text="halo" />
 
                 </androidx.cardview.widget.CardView>
@@ -187,8 +188,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -211,8 +212,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -235,8 +236,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -259,8 +260,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -283,8 +284,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -307,8 +308,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -331,8 +332,8 @@
                     android:layout_height="match_parent"
                     android:padding="10dp"
                     android:fontFamily="@font/raleway_extrabold"
-                    android:textSize="24dp"
-                    android:layout_marginLeft="100dp"
+                    android:textSize="24sp"
+                    android:layout_marginStart="100dp"
                     android:text="halo" />
 
             </androidx.cardview.widget.CardView>
@@ -370,7 +371,7 @@
         android:layout_marginTop="36dp"
         android:fontFamily="@font/raleway_extrabold"
         android:text="Happy Birthday, Naiyaang!!!"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
