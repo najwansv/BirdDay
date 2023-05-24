@@ -8,13 +8,10 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="411dp"
-        android:layout_height="696dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
         android:scrollbars="none"
-        app:layout_constraintBottom_toBottomOf="@+id/viewBarbottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view4">
@@ -22,7 +19,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="150dp">
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -51,22 +49,28 @@
                             app:layout_gravity="center"
                             app:layout_row="1">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            </ImageView>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
 
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="80dp"
-                                android:fontFamily="@font/raleway_extrabold"
-                                android:gravity="center"
-                                android:text="Happy Birthday"
-                                android:textSize="16sp" />
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="S A F E\nP L A C E"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
@@ -81,22 +85,28 @@
                             app:layout_gravity="center"
                             app:layout_row="1">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            </ImageView>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
 
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="80dp"
-                                android:fontFamily="@font/raleway_extrabold"
-                                android:gravity="center"
-                                android:text="Happy Birthday"
-                                android:textSize="16sp" />
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="What a Surprise"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
@@ -112,22 +122,28 @@
                             app:layout_gravity="center"
                             app:layout_row="2">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            </ImageView>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
 
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="80dp"
-                                android:fontFamily="@font/raleway_extrabold"
-                                android:gravity="center"
-                                android:text="Happy Birthday"
-                                android:textSize="16sp" />
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="Lagu buat nanti kita ..."
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
@@ -143,22 +159,28 @@
                             app:layout_gravity="center"
                             app:layout_row="2">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            </ImageView>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
 
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="80dp"
-                                android:fontFamily="@font/raleway_extrabold"
-                                android:gravity="center"
-                                android:text="Happy Birthday"
-                                android:textSize="16sp" />
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="Crazy night"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
@@ -173,22 +195,28 @@
                             app:layout_gravity="center"
                             app:layout_row="1">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            </ImageView>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
 
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="80dp"
-                                android:fontFamily="@font/raleway_extrabold"
-                                android:gravity="center"
-                                android:text="Happy Birthday"
-                                android:textSize="16sp" />
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="N"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
@@ -204,22 +232,28 @@
                             app:layout_gravity="center"
                             app:layout_row="2">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            </ImageView>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
 
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="80dp"
-                                android:fontFamily="@font/raleway_extrabold"
-                                android:gravity="center"
-                                android:text="Happy Birthday"
-                                android:textSize="16sp" />
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="grievirrs777 + sulvadli"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
@@ -233,7 +267,7 @@
                 android:layout_height="match_parent"
                 android:fontFamily="@font/raleway_extrabold"
                 android:padding="10dp"
-                android:text="Just for you (ayaang) ♥"
+                android:text="Just for Us ♥"
                 android:textSize="20sp" />
 
             <HorizontalScrollView
@@ -253,9 +287,9 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="200dp"
                             android:layout_height="match_parent"
-                            app:cardCornerRadius="12dp"
                             android:layout_margin="10dp"
-                            app:cardBackgroundColor="#FFFFFF">
+                            app:cardBackgroundColor="#FFFFFF"
+                            app:cardCornerRadius="12dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -273,10 +307,10 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:padding="20dp"
-                                    android:textColor="#1ed760"
-                                    android:text="Haloo"
                                     android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="Xaviera"
+                                    android:textColor="#1ed760"
                                     android:textSize="20dp">
 
                                 </TextView>
@@ -290,8 +324,8 @@
                             android:layout_width="200dp"
                             android:layout_height="match_parent"
                             android:layout_margin="10dp"
-                            app:cardCornerRadius="12dp"
-                            app:cardBackgroundColor="#FFFFFF">
+                            app:cardBackgroundColor="#FFFFFF"
+                            app:cardCornerRadius="12dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -309,10 +343,10 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:padding="20dp"
-                                    android:textColor="#1ed760"
-                                    android:text="Haloo"
                                     android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="Najwan"
+                                    android:textColor="#1ed760"
                                     android:textSize="20dp">
 
                                 </TextView>
@@ -328,126 +362,133 @@
 
             </HorizontalScrollView>
 
-
-            <androidx.cardview.widget.CardView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="halo"
-                app:cardBackgroundColor="#00000000">
+                android:fontFamily="@font/raleway_extrabold"
+                android:padding="10dp"
+                android:text="Mood Booster 🥰"
+                android:textSize="20sp" />
 
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="16dp"
-                    app:srcCompat="@drawable/heart" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:padding="10dp"
-                    android:text="halo"
-                    android:textSize="16sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="halo"
-                app:cardBackgroundColor="#00000000">
+                android:scrollbars="none">
 
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="16dp"
-                    app:srcCompat="@drawable/heart" />
-
-                <TextView
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:padding="10dp"
-                    android:text="halo"
-                    android:textSize="16sp" />
+                    android:orientation="horizontal">
 
-            </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:layout_margin="10dp"
+                        android:backgroundTint="@color/yellow"
+                        app:cardCornerRadius="12dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="halo"
-                app:cardBackgroundColor="#00000000">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="16dp"
-                    app:srcCompat="@drawable/heart" />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ayang1">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:padding="10dp"
-                    android:text="halo"
-                    android:textSize="16sp" />
+                            </ImageView>
 
-            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/raleway_extrabold"
+                                android:gravity="center"
+                                android:text="Open when ure happy"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="halo"
-                app:cardBackgroundColor="#00000000">
+                        </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="16dp"
-                    app:srcCompat="@drawable/heart" />
+                    </androidx.cardview.widget.CardView>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:padding="10dp"
-                    android:text="halo"
-                    android:textSize="16sp" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:layout_margin="10dp"
+                        android:backgroundTint="@color/sad_blue"
+                        app:cardCornerRadius="12dp">
 
-            </androidx.cardview.widget.CardView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="halo"
-                app:cardBackgroundColor="#00000000">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ayang1">
 
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="16dp"
-                    app:srcCompat="@drawable/heart" />
+                            </ImageView>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:padding="10dp"
-                    android:text="halo"
-                    android:textSize="16sp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/raleway_extrabold"
+                                android:gravity="center"
+                                android:text="Open when ure Sad"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
 
-            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        android:layout_height="300dp"
+                        android:layout_margin="10dp"
+                        android:backgroundTint="@color/orange"
+                        app:cardCornerRadius="12dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ayang1">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/raleway_extrabold"
+                                android:gravity="center"
+                                android:text="Open when ure excited!!"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
 
         </LinearLayout>
     </ScrollView>
@@ -485,8 +526,8 @@
         android:layout_marginTop="28dp"
         android:elevation="16dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="Happy Birthday, Naiyaang!!!"
-        android:textSize="26sp"
+        android:text="Happy Anniversary, Naiyaang!!!"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
@@ -509,117 +550,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="Birthday"
+        android:text="Anniversary"
         android:elevation="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="@+id/view4"
         app:layout_constraintStart_toStartOf="@+id/view4"
         app:layout_constraintTop_toTopOf="@+id/view4" />
 
-    <View
-        android:id="@+id/viewBarbottom"
-        android:layout_width="409dp"
-        android:layout_height="99dp"
-        android:background="@drawable/blur"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 
-    <View
-        android:id="@+id/view16"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/viewBarbottom"
-        app:layout_constraintEnd_toStartOf="@+id/view18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/viewBarbottom"
-        app:layout_constraintVertical_bias="0.523" />
 
-    <View
-        android:id="@+id/view21"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/heart"
-        app:layout_constraintEnd_toEndOf="@+id/view18"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="@+id/view18"
-        app:layout_constraintTop_toTopOf="@+id/view18" />
 
-    <View
-        android:id="@+id/view19"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/viewBarbottom"
-        app:layout_constraintStart_toEndOf="@+id/view18"
-        app:layout_constraintTop_toTopOf="@+id/viewBarbottom" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_extrabold"
-        android:text="Library"
-        app:layout_constraintBottom_toBottomOf="@+id/view19"
-        app:layout_constraintEnd_toEndOf="@+id/view19"
-        app:layout_constraintStart_toStartOf="@+id/view19"
-        app:layout_constraintTop_toBottomOf="@+id/view23" />
 
-    <View
-        android:id="@+id/view23"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/library"
-        app:layout_constraintEnd_toEndOf="@+id/view19"
-        app:layout_constraintStart_toStartOf="@+id/view19"
-        app:layout_constraintTop_toTopOf="@+id/view19" />
 
-    <View
-        android:id="@+id/view18"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/viewBarbottom"
-        app:layout_constraintTop_toTopOf="@+id/viewBarbottom" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_extrabold"
-        android:text="Home"
-        app:layout_constraintBottom_toBottomOf="@+id/view16"
-        app:layout_constraintEnd_toEndOf="@+id/view16"
-        app:layout_constraintStart_toStartOf="@+id/view16"
-        app:layout_constraintTop_toBottomOf="@+id/view13" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_extrabold"
-        android:text="Likes"
-        app:layout_constraintBottom_toBottomOf="@+id/view18"
-        app:layout_constraintEnd_toEndOf="@+id/view18"
-        app:layout_constraintStart_toStartOf="@+id/view18"
-        app:layout_constraintTop_toBottomOf="@+id/view21" />
-
-    <View
-        android:id="@+id/view13"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/home"
-        app:layout_constraintEnd_toEndOf="@+id/view16"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="@+id/view16"
-        app:layout_constraintTop_toTopOf="@+id/view16" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
