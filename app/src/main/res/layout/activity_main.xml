@@ -47,7 +47,8 @@
                             app:cardCornerRadius="15dp"
                             app:cardElevation="15dp"
                             app:layout_gravity="center"
-                            app:layout_row="1">
+                            app:layout_row="1"
+                            android:onClick="safePlace">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -396,7 +397,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
-                                android:layout_margin="10dp"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/ayang1">
 
@@ -407,7 +407,7 @@
                                 android:layout_height="match_parent"
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
-                                android:text="Open when ure happy"
+                                android:text="Open when\nure happy"
                                 android:textColor="@color/black"
                                 android:textSize="20sp" />
 
@@ -431,7 +431,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
-                                android:layout_margin="10dp"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/ayang1">
 
@@ -442,7 +441,7 @@
                                 android:layout_height="match_parent"
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
-                                android:text="Open when ure Sad"
+                                android:text="Open when\nure Sad"
                                 android:textColor="@color/white"
                                 android:textSize="20sp" />
 
@@ -466,7 +465,6 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
-                                android:layout_margin="10dp"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/ayang1">
 
@@ -477,7 +475,7 @@
                                 android:layout_height="match_parent"
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
-                                android:text="Open when ure excited!!"
+                                android:text="Open when\nure excited!!"
                                 android:textColor="@color/black"
                                 android:textSize="20sp" />
 
@@ -502,6 +500,7 @@
         android:alpha="0.5"
         android:background="@drawable/lonjong"
         android:elevation="16dp"
+
         app:layout_constraintEnd_toStartOf="@+id/view4"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -529,7 +528,7 @@
         android:text="Happy Anniversary, Naiyaang!!!"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

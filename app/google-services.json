@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323943782934",
+    "project_id": "spotiayang",
+    "storage_bucket": "spotiayang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323943782934:android:790b2ffd5a2bdfd545b337",
+        "android_client_info": {
+          "package_name": "com.example.birdday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323943782934-0jqi0a75mneorhroprcqf6m6ta17u8ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe5vSEExknRm3TSHSPhBzihFpgZsAIDqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323943782934-0jqi0a75mneorhroprcqf6m6ta17u8ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
