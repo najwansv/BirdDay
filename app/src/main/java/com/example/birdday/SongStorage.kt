@@ -1,15 +1,12 @@
 package com.example.birdday
 
 import com.google.firebase.FirebaseApp
-import android.net.Uri
 import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.StorageMetadata
 import com.google.firebase.storage.ktx.storage
 import android.content.Context
 import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.StorageReference
 
-class songStorage(private val context: Context) {
+class SongStorage(private val context: Context) {
 
     private var storageRef = Firebase.storage.reference
 

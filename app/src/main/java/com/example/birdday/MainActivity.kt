@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        songStorage(this).initializeFirebaseApp()
-        songStorage(this).initializeFirebaseStorage()
+        SongStorage(this).initializeFirebaseApp()
+        SongStorage(this).initializeFirebaseStorage()
     }
-    fun safePlace(view: View) {
-        val intent = Intent(this, safePlace::class.java)
+    fun safePlaceCard(view: View) {
+        val intent = Intent(this, SafePlace::class.java)
         startActivity(intent)
     }
 }

@@ -48,7 +48,7 @@
                             app:cardElevation="15dp"
                             app:layout_gravity="center"
                             app:layout_row="1"
-                            android:onClick="safePlace">
+                            android:onClick="safePlaceCard">
 
                             <LinearLayout
                                 android:layout_width="match_parent"

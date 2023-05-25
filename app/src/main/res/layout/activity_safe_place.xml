@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".safePlace">
+    tools:context=".SafePlace">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -34,7 +34,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="S A F E P L A C E"
+        android:text="S A F E P L A C E 🏡"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -44,7 +44,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="550dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
@@ -54,22 +54,63 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="hallooo ayaangg,, selamat dataang di safeplace muuu (akuu / najwan ganteng banget gokil) hehehe 😀, ayaang kamu kalo butuh tempatt curhaat atau mau ngegosip hal apapunnn, im ready to hear uu ayaangg everytimee everywheeree anywhenn yaaa. kalo kamu butuh aku bilang ajaa yaangg, cuz im glad to hear uur voicee, to be with uuu all the timee i love youu soo muchh ayaangg ♥♥♥..\n\njujur aku gatau mau isi apaan disiniiii karna masih ada beberapa halaman playlist selanjutnyaa. yaa hopee uu likee thiss application ayaang."
+            android:text="hallooo ayaangg,, selamat dataang di safeplace muuu (akuu / najwan ganteng banget gokil) hehehe 😀, ayaang kamu kalo butuh tempatt curhaat atau mau ngegosip hal apapunnn, im ready to hear uu ayaangg everytimee everywheeree anywhenn yaaa. kalo kamu butuh aku bilang ajaa yaangg, cuz im glad to hear uur voicee, to be with uuu all the timee i love youu soo muchh ayaangg ♥♥♥..\n\nwell ini ada laguu untuk kamuu, kamu boleh bangett plaay setiap hari setiap saat yaa yang.tapi ini cuma satu lagu sihh.. yaa hopee uu likee thiss application ayaang."
             android:textSize="16sp">
 
         </TextView>
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:onClick="playASong"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                    app:srcCompat="@drawable/play" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:gravity="center"
+                    android:padding="23dp"
+                    android:text="PLAY"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="23dp"
+                    android:paddingRight="23dp"
+                    android:paddingBottom="50dp"
+                    android:text="akuu mau ngasih tauu kalo lagu ini udah gak relate lagi sama kamu ayaangg,, kenapaa?? karna sekarang kamu udah punya akuu yaangg,, uu have mee in ur homee okaayyy.. i can be where place to goo, place to dry ur eyes ayang, u can go home anywhen anywhere u wantt ayaangg, cuz ill always be ur homee 🏡🏡"
+                    android:textSize="16sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:onClick="playASong"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/play" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

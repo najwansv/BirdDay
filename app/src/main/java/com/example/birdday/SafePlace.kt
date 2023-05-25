@@ -8,27 +8,22 @@ import android.view.View
 import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
 
-class safePlace : AppCompatActivity() {
-    private var song = songStorage(this)
+class SafePlace : AppCompatActivity() {
+    private var song = SongStorage(this)
     private lateinit var player: ExoPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_safe_place)
-
-
         player = ExoPlayer.Builder(this).build()
-
-
     }
 
     fun backToMain(view: View) {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+        finish()
     }
 
     fun playASong(view: View){
-        val filePath = "My Chemical Romance - Disenchanted.mp3"
+        val filePath = "y2mate.com - Avril Lavigne  Nobodys Home Official Video.mp3"
         song.playSong(filePath,
             onSuccess = { audioFileUrl ->
                 // Prepare ExoPlayer with MediaSource
@@ -41,7 +36,7 @@ class safePlace : AppCompatActivity() {
                 player.play()
             },
             onFailure = { exception ->
-                // Handle any error that occurred while retrieving the URL
+
             }
         )
     }
