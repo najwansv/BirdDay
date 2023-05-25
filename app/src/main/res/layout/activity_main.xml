@@ -46,8 +46,9 @@
                             app:cardBackgroundColor="#3E3C3C"
                             app:cardCornerRadius="15dp"
                             app:cardElevation="15dp"
+                            app:layout_column="0"
                             app:layout_gravity="center"
-                            app:layout_row="1"
+                            app:layout_row="2"
                             android:onClick="safePlaceCard">
 
                             <LinearLayout
@@ -121,7 +122,8 @@
                             app:cardElevation="15dp"
                             app:layout_column="0"
                             app:layout_gravity="center"
-                            app:layout_row="2">
+                            android:onClick="happyAnnivCard"
+                            app:layout_row="1">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -141,7 +143,7 @@
                                     android:layout_height="80dp"
                                     android:fontFamily="@font/raleway_extrabold"
                                     android:gravity="center"
-                                    android:text="Lagu buat nanti kita ..."
+                                    android:text="🎂"
                                     android:textSize="16sp" />
 
                             </LinearLayout>

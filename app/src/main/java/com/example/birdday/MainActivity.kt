@@ -16,4 +16,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SafePlace::class.java)
         startActivity(intent)
     }
+
+    fun happyAnnivCard(view: View) {
+        val intent = Intent(this, HappyAnniv::class.java)
+        startActivity(intent)
+    }
 }

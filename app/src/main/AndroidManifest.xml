@@ -15,6 +15,9 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".HappyAnniv"
+            android:exported="false" />
+        <activity
             android:name=".SafePlace"
             android:exported="false" />
         <activity
