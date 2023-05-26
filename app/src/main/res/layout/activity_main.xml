@@ -42,6 +42,44 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            app:cardBackgroundColor="#3E3C3C"
+                            app:cardCornerRadius="15dp"
+                            app:cardElevation="15dp"
+                            app:layout_column="0"
+                            app:layout_gravity="center"
+                            app:layout_row="1"
+                            android:onClick="happyAnnivCard">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:gravity="center"
+                                    android:text="🎂"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             app:cardBackgroundColor="#3E3C3C"
                             app:cardCornerRadius="15dp"
@@ -116,49 +154,11 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:padding="5dp"
-                            app:cardBackgroundColor="#3E3C3C"
-                            app:cardCornerRadius="15dp"
-                            app:cardElevation="15dp"
-                            app:layout_column="0"
-                            app:layout_gravity="center"
-                            android:onClick="happyAnnivCard"
-                            app:layout_row="1">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="horizontal">
-
-                                <ImageView
-                                    android:layout_width="80dp"
-                                    android:layout_height="80dp"
-                                    android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1">
-
-                                </ImageView>
-
-                                <TextView
-                                    android:layout_width="100dp"
-                                    android:layout_height="80dp"
-                                    android:fontFamily="@font/raleway_extrabold"
-                                    android:gravity="center"
-                                    android:text="🎂"
-                                    android:textSize="16sp" />
-
-                            </LinearLayout>
-
-
-                        </androidx.cardview.widget.CardView>
-
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_margin="5dp"
                             app:cardBackgroundColor="#3E3C3C"
                             app:cardCornerRadius="15dp"
                             app:cardElevation="15dp"
+                            app:layout_column="1"
                             app:layout_gravity="center"
                             app:layout_row="2">
 
