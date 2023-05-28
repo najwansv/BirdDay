@@ -122,6 +122,7 @@
                             app:cardBackgroundColor="#3E3C3C"
                             app:cardCornerRadius="15dp"
                             app:cardElevation="15dp"
+                            android:onClick="whatASurpriseCard"
                             app:layout_gravity="center"
                             app:layout_row="1">
 

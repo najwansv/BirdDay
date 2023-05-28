@@ -23,4 +23,10 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent2)
         println("Happy Anniversary Card Clicked")
     }
+
+    fun whatASurpriseCard(view: View) {
+        val intent3 = Intent(this, whatASurprise::class.java)
+        startActivity(intent3)
+        println("What a Surprise Card Clicked")
+    }
 }
