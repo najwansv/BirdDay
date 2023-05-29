@@ -15,6 +15,15 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".Us"
+            android:exported="false" />
+        <activity
+            android:name=".N"
+            android:exported="false" />
+        <activity
+            android:name=".crazyNight"
+            android:exported="false" />
+        <activity
             android:name=".whatASurprise"
             android:exported="false" />
         <activity

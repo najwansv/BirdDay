@@ -161,6 +161,7 @@
                             app:cardElevation="15dp"
                             app:layout_column="1"
                             app:layout_gravity="center"
+                            android:onClick="crazyNightCard"
                             app:layout_row="2">
 
                             <LinearLayout
@@ -197,6 +198,7 @@
                             app:cardCornerRadius="15dp"
                             app:cardElevation="15dp"
                             app:layout_gravity="center"
+                            android:onClick="nCard"
                             app:layout_row="1">
 
                             <LinearLayout
@@ -234,6 +236,7 @@
                             app:cardElevation="15dp"
                             app:layout_column="2"
                             app:layout_gravity="center"
+                            android:onClick="usCard"
                             app:layout_row="2">
 
                             <LinearLayout

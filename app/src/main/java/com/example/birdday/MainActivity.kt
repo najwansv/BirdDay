@@ -29,4 +29,21 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent3)
         println("What a Surprise Card Clicked")
     }
+    fun crazyNightCard(view: View) {
+        val intent4 = Intent(this, crazyNight::class.java)
+        startActivity(intent4)
+        println("Crazy Night Card Clicked")
+    }
+
+    fun nCard(view: View) {
+        val intent5 = Intent(this, N::class.java)
+        startActivity(intent5)
+        println("N Card Clicked")
+    }
+
+    fun usCard(view: View) {
+        val intent6 = Intent(this, Us::class.java)
+        startActivity(intent6)
+        println("Us Card Clicked")
+    }
 }
