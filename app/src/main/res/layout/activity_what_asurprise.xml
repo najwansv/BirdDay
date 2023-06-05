@@ -45,7 +45,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="502dp"
+        android:layout_height="602dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
@@ -55,14 +55,14 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="asasasas"
+            android:text="What a Surpriseee!!!!, I know you are not expecting this.. mee your boyfriendd??? like wtff is goin oonn?!?!?!, btw me feels the excitements tooo.. xaviera jadi pacar akuu?? aaa feels so happyy back thenn. 12 july kemarin maybe the best of surprises of my lifetime i guess..  makasih banyakk yaa atas semua surprisenyaa. "
             android:textSize="16sp">
 
         </TextView>
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="match_parent"
             android:scrollbars="none"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -102,7 +102,7 @@
                     android:justificationMode="inter_word"
                     android:paddingHorizontal="23dp"
                     android:paddingBottom="23dp"
-                    android:text="asasa"
+                    android:text="beneran dehh inituh beneran yang surprisee bangett?? yaa aku akuinn aku emang ngejer kamuu yangg but aku tuh engga berpikir kalo kamu mau nerima akuu.. just idk when i confess back then aku tuh 'aduhh pasti ini canggung banget gabakal dia nerima aku' but at the end it was a happy endingg surprises.. i lovee uu soo muchh sayaangg\n\nmakasih banyakk udah hadir dalam hidup akuu, untuk sayangnyaa, cintanyaa, waktunyaa, perjuangan kamuu, semuanyaaaa dehh !!."
                     android:textSize="16sp">
 
                 </TextView>
