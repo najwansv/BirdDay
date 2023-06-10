@@ -153,7 +153,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
-                    android:padding="23dp"
+                    android:paddingHorizontal="23dp"
+                    android:paddingBottom="23dp"
                     android:text="ayaaangggg, i feelss u soo important to mee yang.. i cant lose uu.. i dont want to lose uu everrr.. i do feel so luck and fortunate to have uu ayangg. can we be last forever?? can we still have crazy night untill we got older.. i do love you so much sayangkuu xavieraa"
                     android:textSize="16sp">
 
