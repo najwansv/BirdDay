@@ -45,8 +45,9 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="602dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
         <TextView
@@ -100,8 +101,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
-                    android:paddingHorizontal="23dp"
-                    android:paddingBottom="23dp"
+                    android:padding="23dp"
                     android:text="akuu mau ngasih tauu kalo lagu ini udah gak relate lagi sama kamu ayaangg,, kenapaa?? karna sekarang kamu udah punya akuu yaangg,, uu have mee in ur homee okaayyy.. i can be where place to goo, place to dry ur eyes ayang, u can go home anywhen anywhere u wantt ayaangg, cuz ill always be ur homee 🏡🏡"
                     android:textSize="16sp">
 

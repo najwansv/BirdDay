@@ -45,8 +45,9 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="502dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
         <TextView
@@ -55,14 +56,66 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="asasasas"
+            android:text="HAYOOOOOOO,, ayang nichhh nakalllll bangeett hihhhh.. tapi aku sukaa hehehe 😋😋😋😋. buat ayang aku yang jagooo.. i proudly love uuu soo much yaangg.. i lovee uu for ur personality but that kisses tho... its greattt bonuss hehehheh.. theres still more episodes of crazy night kaannn??? i do love the quality timess we've madee, spent together. i do feel loveed and cared by uu\n\ntebakk kita udah berapa kali crazy night sejauh iniii??"
             android:textSize="16sp">
 
         </TextView>
 
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="answer1"
+                android:text="4"
+                android:textColor="#FF000000"
+                android:textSize="20sp"
+                app:layout_column="0"
+                app:layout_gravity="fill">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="answer2"
+                android:text="2"
+                android:textColor="#FF000000"
+                android:textSize="20sp"
+                app:layout_column="1"
+                app:layout_gravity="fill"
+                app:layout_row="0">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="answer3"
+                android:text="3"
+                android:textColor="#FF000000"
+                android:textSize="20sp"
+                app:layout_column="2"
+                app:layout_gravity="fill"
+                app:layout_row="0">
+
+            </Button>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="match_parent"
             android:scrollbars="none"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -100,9 +153,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
-                    android:paddingHorizontal="23dp"
-                    android:paddingBottom="23dp"
-                    android:text="asasa"
+                    android:padding="23dp"
+                    android:text="ayaaangggg, i feelss u soo important to mee yang.. i cant lose uu.. i dont want to lose uu everrr.. i do feel so luck and fortunate to have uu ayangg. can we be last forever?? can we still have crazy night untill we got older.. i do love you so much sayangkuu xavieraa"
                     android:textSize="16sp">
 
                 </TextView>

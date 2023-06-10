@@ -45,8 +45,9 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="602dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
         <TextView
@@ -100,7 +101,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
-                    android:paddingHorizontal="23dp"
+                    android:padding="23dp"
                     android:text="beneran dehh inituh beneran yang surprisee bangett?? yaa aku akuinn aku emang ngejer kamuu yangg but aku tuh engga berpikir kalo kamu mau nerima akuu.. just idk when i confess back then aku tuh 'aduhh pasti ini canggung banget gabakal dia nerima aku' but at the end it was a happy endingg surprises.. i lovee uu soo muchh sayaangg\n\nmakasih banyakk udah hadir dalam hidup akuu, untuk sayangnyaa, cintanyaa, waktunyaa, perjuangan kamuu, semuanyaaaa dehh !!. i love youu moree sayaangg"
                     android:textSize="16sp">
 
