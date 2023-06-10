@@ -4,6 +4,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
 
@@ -38,6 +39,19 @@ class crazyNight : AppCompatActivity() {
 
             }
         )
+    }
+
+    fun answer1(view: View) {
+        Toast.makeText(this, "jawaban benar", Toast.LENGTH_SHORT).show()
+    }
+
+    fun answer2(view: View) {
+        Toast.makeText(this, "jawaban salah", Toast.LENGTH_SHORT).show()
+
+    }
+
+    fun answer3(view: View) {
+        Toast.makeText(this, "jawaban salah", Toast.LENGTH_SHORT).show()
     }
 
     override fun onDestroy() {
