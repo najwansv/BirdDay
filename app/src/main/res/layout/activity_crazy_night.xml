@@ -56,62 +56,10 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="HAYOOOOOOO,, ayang nichhh nakalllll bangeett hihhhh.. tapi aku sukaa hehehe 😋😋😋😋. buat ayang aku yang jagooo.. i proudly love uuu soo much yaangg.. i lovee uu for ur personality but that kisses tho... its greattt bonuss hehehheh.. theres still more episodes of crazy night kaannn??? i do love the quality timess we've madee, spent together. i do feel loveed and cared by uu\n\ntebakk kita udah berapa kali crazy night sejauh iniii??"
+            android:text="HAYOOOOOOO,, ayang nichhh nakalllll bangeett hihhhh.. tapi aku sukaa hehehe 😋😋😋😋. buat ayang aku yang jagooo.. i proudly love uuu soo much yaangg.. i lovee uu for ur personality but that kisses tho... its greattt bonuss hehehheh.. theres still more episodes of crazy night kaannn??? i do love the quality timess we've madee, spent together. i do feel loveed and cared by uu"
             android:textSize="16sp">
 
         </TextView>
-
-        <androidx.gridlayout.widget.GridLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="answer1"
-                android:text="4"
-                android:textColor="#FF000000"
-                android:textSize="20sp"
-                app:layout_column="0"
-                app:layout_gravity="fill">
-
-            </Button>
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="answer2"
-                android:text="2"
-                android:textColor="#FF000000"
-                android:textSize="20sp"
-                app:layout_column="1"
-                app:layout_gravity="fill"
-                app:layout_row="0">
-
-            </Button>
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="answer3"
-                android:text="3"
-                android:textColor="#FF000000"
-                android:textSize="20sp"
-                app:layout_column="2"
-                app:layout_gravity="fill"
-                app:layout_row="0">
-
-            </Button>
-
-
-        </androidx.gridlayout.widget.GridLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -125,6 +73,69 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:justificationMode="inter_word"
+                    android:padding="23dp"
+                    android:textSize="16sp"
+                    android:text="tebakk kita udah berapa kali crazy night sejauh inii?">
+
+                </TextView>
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:onClick="answer1"
+                        android:text="4"
+                        android:textColor="#FF000000"
+                        android:textSize="20sp"
+                        app:layout_column="0"
+                        app:layout_gravity="fill">
+
+                    </Button>
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:onClick="answer2"
+                        android:text="2"
+                        android:textColor="#FF000000"
+                        android:textSize="20sp"
+                        app:layout_column="1"
+                        app:layout_gravity="fill"
+                        app:layout_row="0">
+
+                    </Button>
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:onClick="answer3"
+                        android:text="3"
+                        android:textColor="#FF000000"
+                        android:textSize="20sp"
+                        app:layout_column="2"
+                        app:layout_gravity="fill"
+                        app:layout_row="0">
+
+                    </Button>
+
+
+                </androidx.gridlayout.widget.GridLayout>
 
                 <ImageView
                     android:id="@+id/imageView2"
