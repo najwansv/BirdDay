@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
 import android.widget.Toast
 import androidx.core.app.ActivityOptionsCompat
@@ -22,13 +23,7 @@ class crazyNight : AppCompatActivity() {
     }
 
     fun backToMain(view: View) {
-        val imageview3 = findViewById<View>(R.id.imageView3)
-        val intent = Intent(this, MainActivity::class.java)
-        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-            this@crazyNight, imageview3, ViewCompat.getTransitionName(imageview3)!!
-        )
-        startActivity(intent, options.toBundle())
-        finish()
+        finishAfterTransition()
     }
 
     fun playASong(view: View){
@@ -51,16 +46,26 @@ class crazyNight : AppCompatActivity() {
     }
 
     fun answer1(view: View) {
-        Toast.makeText(this, "jawaban benar", Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, "jawaban benar", Toast.LENGTH_SHORT).show()
+        Handler().postDelayed({
+            val intent = Intent(this, JawabanBenarActivity::class.java)
+            startActivity(intent)
+        }, 500)
     }
 
     fun answer2(view: View) {
-        Toast.makeText(this, "jawaban salah", Toast.LENGTH_SHORT).show()
+        Handler().postDelayed({
+            val intent = Intent(this, JawabanSalahActivity::class.java)
+            startActivity(intent)
+        }, 500)
 
     }
 
     fun answer3(view: View) {
-        Toast.makeText(this, "jawaban salah", Toast.LENGTH_SHORT).show()
+        Handler().postDelayed({
+            val intent = Intent(this, JawabanSalahActivity::class.java)
+            startActivity(intent)
+        }, 500)
     }
 
     override fun onDestroy() {

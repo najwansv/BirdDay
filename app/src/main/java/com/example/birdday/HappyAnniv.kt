@@ -20,13 +20,7 @@ class HappyAnniv : AppCompatActivity() {
     }
 
     fun backToMain(view: View) {
-        val imageview3 = findViewById<View>(R.id.imageView3)
-        val intent = Intent(this, MainActivity::class.java)
-        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-            this@HappyAnniv, imageview3, ViewCompat.getTransitionName(imageview3)!!
-        )
-        startActivity(intent, options.toBundle())
-        finish()
+        finishAfterTransition()
     }
 
     fun playASong(view: View){
