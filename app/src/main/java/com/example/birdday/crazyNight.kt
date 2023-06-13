@@ -1,10 +1,13 @@
 package com.example.birdday
 
+import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.core.app.ActivityOptionsCompat
+import androidx.core.view.ViewCompat
 import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
 
@@ -19,6 +22,12 @@ class crazyNight : AppCompatActivity() {
     }
 
     fun backToMain(view: View) {
+        val imageview3 = findViewById<View>(R.id.imageView3)
+        val intent = Intent(this, MainActivity::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@crazyNight, imageview3, ViewCompat.getTransitionName(imageview3)!!
+        )
+        startActivity(intent, options.toBundle())
         finish()
     }
 

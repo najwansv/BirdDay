@@ -1,11 +1,16 @@
 package com.example.birdday
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityOptionsCompat
+import androidx.core.view.ViewCompat
+
 
 class MainActivity : AppCompatActivity() {
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -13,37 +18,62 @@ class MainActivity : AppCompatActivity() {
         SongStorage(this).initializeFirebaseStorage()
     }
     fun safePlaceCard(view: View) {
+        val safePlaceImage = findViewById<ImageView>(R.id.safePlaceImage)
         val intent1 = Intent(this, SafePlace::class.java)
-        startActivity(intent1)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, safePlaceImage, ViewCompat.getTransitionName(safePlaceImage)!!
+        )
+        startActivity(intent1, options.toBundle())
         println("Safe Place Card Clicked")
     }
 
     fun happyAnnivCard(view: View) {
+        
+        val annivImage = findViewById<ImageView>(R.id.annivImage)
         val intent2 = Intent(this, HappyAnniv::class.java)
-        startActivity(intent2)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, annivImage, ViewCompat.getTransitionName(annivImage)!!
+        )
+        startActivity(intent2, options.toBundle())
         println("Happy Anniversary Card Clicked")
     }
 
     fun whatASurpriseCard(view: View) {
+        val surpriseImage = findViewById<ImageView>(R.id.surpriseImage)
         val intent3 = Intent(this, whatASurprise::class.java)
-        startActivity(intent3)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, surpriseImage, ViewCompat.getTransitionName(surpriseImage)!!
+        )
+        startActivity(intent3, options.toBundle())
         println("What a Surprise Card Clicked")
     }
     fun crazyNightCard(view: View) {
+        val crazyNightImage = findViewById<ImageView>(R.id.crazyNightImage)
         val intent4 = Intent(this, crazyNight::class.java)
-        startActivity(intent4)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, crazyNightImage, ViewCompat.getTransitionName(crazyNightImage)!!
+        )
+        startActivity(intent4, options.toBundle())
         println("Crazy Night Card Clicked")
     }
 
     fun nCard(view: View) {
+        val nImage = findViewById<ImageView>(R.id.nImage)
         val intent5 = Intent(this, N::class.java)
-        startActivity(intent5)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, nImage, ViewCompat.getTransitionName(nImage)!!
+        )
+        startActivity(intent5, options.toBundle())
         println("N Card Clicked")
     }
 
     fun usCard(view: View) {
+        val usImage = findViewById<ImageView>(R.id.usImage)
         val intent6 = Intent(this, Us::class.java)
-        startActivity(intent6)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, usImage, ViewCompat.getTransitionName(usImage)!!
+        )
+        startActivity(intent6, options.toBundle())
         println("Us Card Clicked")
     }
 }
