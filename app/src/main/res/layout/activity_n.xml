@@ -49,8 +49,9 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="502dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
         <TextView
@@ -59,14 +60,14 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="N stands for Najwan n Naiyang hehehehe,,"
+            android:text="N stands for Najwan n Naiyang hehehehe,, my favv characterrr besides its initial for my name and surprisingly its ur too (but it personal), karena kamu aslinya pake X but it wont matter karna aku juga sukaa huruf X.. its unique and rare yaangg kereenn aku sukaa."
             android:textSize="16sp">
 
         </TextView>
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="wrap_content"
             android:scrollbars="none"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -107,7 +108,7 @@
                     android:justificationMode="inter_word"
                     android:paddingHorizontal="23dp"
                     android:paddingBottom="23dp"
-                    android:text="asasa"
+                    android:text="anywayy aku tuh sukaa lagu iniiiii judulnya love ephipany by reality club, its sooo gooddd, i love the lyrics and the meaning of the song, its sooo deep and i love it, i love the way he express his feeling through the songg.. jadi dari judulnya ajaa artinya kamu bener bener menemukan cinta sejati gituu yaangg (and its very mee ????) i hope can be last forever ya yaang dont be this game over "
                     android:textSize="16sp">
 
                 </TextView>

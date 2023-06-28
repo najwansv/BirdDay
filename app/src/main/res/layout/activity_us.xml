@@ -57,7 +57,7 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="asasasas"
+            android:text="ayaanggggg, aku udah engga tau lagi mau nulis apaaaa, tapi ada lagu buat kamu"
             android:textSize="16sp">
 
         </TextView>
@@ -105,7 +105,7 @@
                     android:justificationMode="inter_word"
                     android:paddingHorizontal="23dp"
                     android:paddingBottom="23dp"
-                    android:text="asasa"
+                    android:text="Hope you like it"
                     android:textSize="16sp">
 
                 </TextView>
