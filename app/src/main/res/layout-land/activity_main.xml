@@ -310,7 +310,8 @@
                             android:layout_height="match_parent"
                             android:layout_margin="10dp"
                             app:cardBackgroundColor="#FFFFFF"
-                            app:cardCornerRadius="12dp">
+                            app:cardCornerRadius="12dp"
+                            android:onClick="xavieraSayang">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -346,7 +347,8 @@
                             android:layout_height="match_parent"
                             android:layout_margin="10dp"
                             app:cardBackgroundColor="#FFFFFF"
-                            app:cardCornerRadius="12dp">
+                            app:cardCornerRadius="12dp"
+                            android:onClick="najwanSayang">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
