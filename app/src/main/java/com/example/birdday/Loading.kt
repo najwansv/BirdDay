@@ -15,6 +15,5 @@ class Loading : AppCompatActivity() {
             startActivity(intent)
             finish()
         }, 5000)
-
     }
 }

@@ -89,6 +89,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent8)
     }
     fun whenHappy(view: View){
-
+        val intent9 = Intent(this, WhenHappy::class.java)
+        startActivity(intent9)
     }
 }

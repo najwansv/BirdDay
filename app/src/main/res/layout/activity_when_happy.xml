@@ -6,4 +6,111 @@
     android:layout_height="match_parent"
     tools:context=".WhenHappy">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        android:transitionName="when1"
+        app:srcCompat="@drawable/ayang1" />
+
+    <ImageButton
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="backToMain"
+        android:backgroundTint="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chevron_left" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="When you're happy"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:justificationMode="inter_word"
+                    android:padding="23dp"
+                    android:text="My love, when youre overflowing with happiness, my heart dances alongside with yours. senyumanmu membuat hatiku berbunga-bunga. di momen ini, aku pengen ayang tau cintaku untukmu bertambah berlipat setiap hari bersama mu.\n\nSelamat bersenang senangg sayaang, aku berharap kamu dapat terus bahagia yaa walaupun tanpa ada aku disisi kamu. Cause u deserve all the happiness in the world. remember that i love you so much, and i will always do. \n\nI love you so much, xaviera. \n\nLove, \nYour one and only, \nAjuuan."
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/happyCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:textSize="35sp"
+                        app:layout_column="0"
+                        app:layout_gravity="fill">
+
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/happyButton"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@color/transparent"
+                        android:onClick="addOne"
+                        app:srcCompat="@drawable/happy_icon" />
+
+
+                </androidx.gridlayout.widget.GridLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
