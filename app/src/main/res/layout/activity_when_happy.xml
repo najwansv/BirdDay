@@ -94,13 +94,22 @@
 
                     </TextView>
 
-                    <ImageButton
+
+
+                    <Button
+                        android:drawableEnd="@drawable/happy_icon"
+                        android:drawableTint="@color/black"
                         android:id="@+id/happyButton"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Happy Count!"
+                        android:textSize="16sp"
+                        android:backgroundTint="@color/yellow"
+                        android:fontFamily="@font/raleway_extrabold"
                         android:onClick="addOne"
-                        app:srcCompat="@drawable/happy_icon" />
+                        >
+
+                    </Button>
 
 
                 </androidx.gridlayout.widget.GridLayout>

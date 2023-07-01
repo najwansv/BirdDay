@@ -89,7 +89,12 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent8)
     }
     fun whenHappy(view: View){
+        val happyImage = findViewById<ImageView>(R.id.whenHappyImage)
         val intent9 = Intent(this, WhenHappy::class.java)
-        startActivity(intent9)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, happyImage, ViewCompat.getTransitionName(happyImage)!!
+        )
+        startActivity(intent9, options.toBundle())
+        println("When Happy Card Clicked")
     }
 }

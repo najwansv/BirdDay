@@ -27,7 +27,7 @@ class WhenHappy : AppCompatActivity() {
     }
 
     fun backToMain(view: View) {
-        finish()
+        finishAfterTransition()
     }
 
 }
