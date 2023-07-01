@@ -32,7 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/raleway_extrabold"
-                android:padding="16dp"
+                android:paddingHorizontal="16dp"
+                android:gravity="center|left"
                 android:text="Muhammad Najwan Sulvadli"
                 android:textSize="22sp">
 

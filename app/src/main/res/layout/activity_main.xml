@@ -409,7 +409,8 @@
                         android:layout_height="300dp"
                         android:layout_margin="10dp"
                         android:backgroundTint="@color/yellow"
-                        app:cardCornerRadius="12dp">
+                        app:cardCornerRadius="12dp"
+                        android:onClick="whenHappy">
 
                         <LinearLayout
                             android:layout_width="wrap_content"

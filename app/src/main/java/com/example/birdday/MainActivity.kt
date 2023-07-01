@@ -1,6 +1,8 @@
 package com.example.birdday
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
@@ -85,5 +87,8 @@ class MainActivity : AppCompatActivity() {
     fun najwanSayang(view: View){
         val intent8 = Intent(this, PageNajwan::class.java)
         startActivity(intent8)
+    }
+    fun whenHappy(view: View){
+
     }
 }
