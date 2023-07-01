@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 
-class carouselXaviera(private val carouselDataList: ArrayList<Int>) :
-    RecyclerView.Adapter<carouselXaviera.CarouselItemViewHolder>() {
+class Carousel(private val carouselDataList: ArrayList<Int>) :
+    RecyclerView.Adapter<Carousel.CarouselItemViewHolder>() {
 
     class CarouselItemViewHolder(view: View) : RecyclerView.ViewHolder(view)
 

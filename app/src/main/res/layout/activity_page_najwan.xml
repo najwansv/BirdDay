@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageNajwan">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:backgroundTint="@color/transparent"
+                android:onClick="backToMain"
+                app:srcCompat="@drawable/chevron_left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/raleway_extrabold"
+                android:padding="16dp"
+                android:text="Muhammad Najwan Sulvadli"
+                android:textSize="22sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/gambarAyangPage"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            </androidx.viewpager2.widget.ViewPager2>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/raleway_extrabold"
+                android:justificationMode="inter_word"
+                android:padding="20dp"
+                android:text="Nothing to read"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text=""
+                android:textSize="20sp"
+                android:paddingHorizontal="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="right">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/cardView">-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView3"-->
+    <!--        android:layout_width="205dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:transitionName="pin_to_playlist4"-->
+    <!--        app:srcCompat="@drawable/ayang1" />-->
+
+
+    <!--    </LinearLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -82,13 +82,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent7)
     }
 
-//    fun najwanSayang(view: View){
-//        val najwanSayangImage = findViewById<ImageView>(R.id.najwanSayangImage)
-//        val intent8 = Intent(this, PageNajwan::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, najwanSayangImage, ViewCompat.getTransitionName(najwanSayangImage)!!
-//        )
-//        startActivity(intent8, options.toBundle())
-//        println("Najwan Sayang Card Clicked")
-//    }
+    fun najwanSayang(view: View){
+        val intent8 = Intent(this, PageNajwan::class.java)
+        startActivity(intent8)
+    }
 }

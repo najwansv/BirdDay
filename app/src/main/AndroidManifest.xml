@@ -15,6 +15,9 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".PageNajwan"
+            android:exported="false" />
+        <activity
             android:name=".PageXaviera"
             android:exported="false" />
         <activity

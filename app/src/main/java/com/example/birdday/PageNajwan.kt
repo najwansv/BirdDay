@@ -9,10 +9,10 @@ import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 
-class PageXaviera : AppCompatActivity() {
+class PageNajwan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_page_xaviera)
+        setContentView(R.layout.activity_page_najwan)
 
         val viewPager = findViewById<ViewPager2>(R.id.gambarAyangPage)
 
