@@ -31,10 +31,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="@font/raleway_extrabold"
                 android:padding="16dp"
                 android:text="Xaviera ananda sinaiyangsih"
-                android:textSize="22sp"
-                android:fontFamily="@font/raleway_extrabold">
+                android:textSize="22sp">
 
             </TextView>
 
@@ -42,37 +42,75 @@
 
     </androidx.cardview.widget.CardView>
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/gambarAyangPage"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
-    </androidx.viewpager2.widget.ViewPager2>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/gambarAyangPage"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            </androidx.viewpager2.widget.ViewPager2>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/raleway_extrabold"
+                android:justificationMode="inter_word"
+                android:padding="20dp"
+                android:text="Kalo dibilang nama nya emang keren banget buat di indonesia. Pilihan yang keren dari kedua orang tuanya, xaviera adalah anak kedua dari 4 bersaudara.\n\nPandai bermain gitar, keyboard, bahkan menyayi. Ialah dia yang menyenangi musik 🎵🎶.\n\nDia sosok seseorang yang mudah dikagumi, orang orang akan terlena kepadanya. kepandaiannya dalam berbicara dan berbahasa membuat dirinya menjadi mahasiswa ilmu komunikasi yang berprestasi di kampusnya.\n\nDia juga mengikuti media professional di kampusnya, menjadikannya seorang News Anchor. Tidak cuma itu dia juga menjadi Host di PPN dan NORA di masa yang akan datang.\n\nTidak heran bukan jika kamu mengaguminya, dia memang layak untuk diagumi. Sudah pintar mapres, cantik news anchor, apalagi yang engkau punya xaviera?.\n\nSemangat ya xaviera naiyang sayang."
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text="~ Najwan Sulvadli"
+                android:textSize="20sp"
+                android:paddingHorizontal="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="right">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
 
 
     <!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="horizontal"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/cardView">-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/cardView">-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView3"-->
-<!--        android:layout_width="205dp"-->
-<!--        android:layout_height="200dp"-->
-<!--        android:layout_marginTop="16dp"-->
-<!--        android:scaleType="centerCrop"-->
-<!--        android:transitionName="pin_to_playlist4"-->
-<!--        app:srcCompat="@drawable/ayang1" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView3"-->
+    <!--        android:layout_width="205dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:transitionName="pin_to_playlist4"-->
+    <!--        app:srcCompat="@drawable/ayang1" />-->
 
 
-
-<!--    </LinearLayout>-->
+    <!--    </LinearLayout>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
