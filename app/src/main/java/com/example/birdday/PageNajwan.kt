@@ -4,6 +4,7 @@ import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
@@ -13,6 +14,8 @@ class PageNajwan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page_najwan)
+
+        Toast.makeText(this, "u can slide the image!", Toast.LENGTH_SHORT).show()
 
         val viewPager = findViewById<ViewPager2>(R.id.gambarAyangPage)
 
