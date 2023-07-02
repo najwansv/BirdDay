@@ -36,5 +36,8 @@ class WhenLonely : AppCompatActivity() {
         }
     }
 
+    fun backToMain(view: android.view.View) {
+        finishAfterTransition()
+    }
 
 }
