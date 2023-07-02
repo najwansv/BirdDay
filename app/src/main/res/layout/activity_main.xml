@@ -433,7 +433,7 @@
                                 android:layout_height="match_parent"
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
-                                android:text="Open when\nure happy"
+                                android:text="Open when\nyour'e Happy"
                                 android:textColor="@color/black"
                                 android:textSize="20sp" />
 
@@ -470,7 +470,7 @@
                                 android:layout_height="match_parent"
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
-                                android:text="Open when\nure Sad"
+                                android:text="Open when\nyour'e Sad"
                                 android:textColor="@color/white"
                                 android:textSize="20sp" />
 
@@ -482,8 +482,9 @@
                         android:layout_width="250dp"
                         android:layout_height="300dp"
                         android:layout_margin="10dp"
-                        android:backgroundTint="@color/orange"
-                        app:cardCornerRadius="12dp">
+                        android:backgroundTint="@color/Lonely"
+                        app:cardCornerRadius="12dp"
+                        android:onClick="whenLonely">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -491,11 +492,13 @@
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/whenLonelyImage"
                                 android:layout_width="wrap_content"
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                                android:src="@drawable/ayang1"
+                                android:transitionName="when3">
 
                             </ImageView>
 
@@ -504,7 +507,7 @@
                                 android:layout_height="match_parent"
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
-                                android:text="Open when\nure excited!!"
+                                android:text="Open when\nyour'e lonely"
                                 android:textColor="@color/black"
                                 android:textSize="20sp" />
 

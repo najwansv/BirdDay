@@ -107,4 +107,14 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent10, options.toBundle())
         println("When Sad Card Clicked")
     }
+
+    fun whenLonely(view: View){
+        val lonelyImage = findViewById<ImageView>(R.id.whenLonelyImage)
+        val intent11 = Intent(this, WhenLonely::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, lonelyImage, ViewCompat.getTransitionName(lonelyImage)!!
+        )
+        startActivity(intent11, options.toBundle())
+        println("When Lonely Card Clicked")
+    }
 }
