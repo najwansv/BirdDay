@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenSad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="backToMain"
+                android:backgroundTint="@color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chevron_left" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:transitionName="when2"
+                app:srcCompat="@drawable/ayang1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="23dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text="When you're sad😟"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:justificationMode="inter_word"
+                        android:padding="23dp"
+                        android:text="ayaangg:((, when the weight of the world becomes heavy on ur shoulder, i want to remember you that kamu enggak sendiriann. I am here for you, ready to hold youu, listen to youu ayangg, and be your shoulder to cry on. I love youu ayangg, and i will always be here for youu yayayaa.\n\nHidup adalah perjalanan dengan berbagai lika liku ayangg, dan disaat sedih seperti ini aku sangat ingin meredam kesedihan muu. ingeet Cuz every after storm, the sun shines againn kann. So embrace urself ayaangg. ull be finee.\n\nI love youu and swipe ur tearss"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/sadCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text=""
+                            android:fontFamily="@font/raleway_extrabold"
+                            android:textSize="35sp"
+                            app:layout_column="0"
+                            app:layout_gravity="fill">
+
+                        </TextView>
+
+                        <Button
+                            android:drawableEnd="@drawable/sad_icon"
+                            android:drawableTint="@color/white"
+                            android:id="@+id/sadButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="I'm Sad rn"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:backgroundTint="@color/sad_blue"
+                            android:fontFamily="@font/raleway_extrabold"
+                            android:onClick="sadButton"
+                            >
+
+                        </Button>
+
+
+                    </androidx.gridlayout.widget.GridLayout>
+
+                    <EditText
+                        android:id="@+id/whySad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:hint="ayaang kenapa sedihh?"
+                        android:inputType="textMultiLine"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:textSize="16sp">
+
+                    </EditText>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
