@@ -12,13 +12,11 @@ class realtimeDatabase {
 
     private lateinit var ref: DatabaseReference
 
-    fun saveCount(count: Int){
-        ref = FirebaseDatabase.getInstance().getReference("Happy/happyCount")
+    fun saveCount(ref: DatabaseReference, count: Int) {
         ref.setValue(count)
     }
 
-    fun getCount(callback: (Int) -> Unit) {
-        ref = FirebaseDatabase.getInstance().getReference("Happy/happyCount")
+    fun getCount(ref: DatabaseReference, callback: (Int) -> Unit) {
         ref.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val count = dataSnapshot.getValue(Int::class.java) ?: 0
