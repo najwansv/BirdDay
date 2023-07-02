@@ -446,7 +446,8 @@
                         android:layout_height="300dp"
                         android:layout_margin="10dp"
                         android:backgroundTint="@color/sad_blue"
-                        app:cardCornerRadius="12dp">
+                        app:cardCornerRadius="12dp"
+                        android:onClick="whenSad">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -454,11 +455,13 @@
                             android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/whenSadImage"
                                 android:layout_width="wrap_content"
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1">
+                                android:src="@drawable/ayang1"
+                                android:transitionName="when2">
 
                             </ImageView>
 

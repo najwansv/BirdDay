@@ -30,4 +30,12 @@ class realtimeDatabase {
         })
     }
 
+    fun saveQuestion(ref: DatabaseReference, question: String, kapan: String) {
+        val sadID = kapan
+        val sad = Sad(sadID, question)
+        ref.child(sadID).setValue(sad).addOnCompleteListener {
+            println("Success")
+        }
+    }
+
 }

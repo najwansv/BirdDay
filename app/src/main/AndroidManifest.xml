@@ -15,6 +15,9 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".WhenSad"
+            android:exported="false" />
+        <activity
             android:name=".WhenHappy"
             android:exported="false" />
         <activity
