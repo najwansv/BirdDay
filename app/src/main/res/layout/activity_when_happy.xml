@@ -94,8 +94,6 @@
 
                     </TextView>
 
-
-
                     <Button
                         android:drawableEnd="@drawable/happy_icon"
                         android:drawableTint="@color/black"

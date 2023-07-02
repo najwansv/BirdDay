@@ -58,8 +58,8 @@
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/gambarAyangPage"
                 android:layout_width="280dp"
-                android:layout_height="280dp"
-                android:layout_marginTop="16dp"
+                android:layout_height="match_parent"
+                android:padding="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
