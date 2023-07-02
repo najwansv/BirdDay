@@ -61,7 +61,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/happy_anniv"
                                     android:transitionName="pin_to_playlist1">
 
                                 </ImageView>
@@ -101,7 +101,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/safe_place"
                                     android:transitionName="pin_to_playlist2">
 
                                 </ImageView>
@@ -140,7 +140,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/what_surprise"
                                     android:transitionName="pin_to_playlist3">
 
                                 </ImageView>
@@ -180,7 +180,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/crazy_night"
                                     android:transitionName="pin_to_playlist4">
 
                                 </ImageView>
@@ -219,7 +219,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/n_photo"
                                     android:transitionName="pin_to_playlist5">
 
                                 </ImageView>
@@ -259,7 +259,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/us_photo"
                                     android:transitionName="pin_to_playlist6">
 
                                 </ImageView>
@@ -321,7 +321,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="230dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1"
+                                    android:src="@drawable/ayang_page"
                                     android:transitionName="profileAyang">
 
                                 </ImageView>
