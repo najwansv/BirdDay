@@ -117,4 +117,14 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent11, options.toBundle())
         println("When Lonely Card Clicked")
     }
+
+    fun whenCompliment(view: View){
+        val complimentImage = findViewById<ImageView>(R.id.whenComplimentImage)
+        val intent12 = Intent(this, WhenCompliment::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, complimentImage, ViewCompat.getTransitionName(complimentImage)!!
+        )
+        startActivity(intent12, options.toBundle())
+        println("When Compliment Card Clicked")
+    }
 }

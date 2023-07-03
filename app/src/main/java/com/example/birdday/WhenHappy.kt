@@ -10,7 +10,7 @@ import com.google.firebase.database.FirebaseDatabase
 class WhenHappy : AppCompatActivity() {
 
     private lateinit var ref: DatabaseReference
-    val db = realtimeDatabase()
+    private val db = realtimeDatabase()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_when_happy)
