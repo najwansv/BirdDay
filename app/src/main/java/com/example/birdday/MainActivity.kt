@@ -127,4 +127,74 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent12, options.toBundle())
         println("When Compliment Card Clicked")
     }
+//
+//    fun whenMiss(view: View){
+//        val missImage = findViewById<ImageView>(R.id.whenMissImage)
+//        val intent13 = Intent(this, WhenMiss::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, missImage, ViewCompat.getTransitionName(missImage)!!
+//        )
+//        startActivity(intent13, options.toBundle())
+//        println("When Miss Card Clicked")
+//    }
+//
+//    fun whenFrustate(view: View){
+//        val frustateImage = findViewById<ImageView>(R.id.whenFrustateImage)
+//        val intent14 = Intent(this, WhenFrustate::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, frustateImage, ViewCompat.getTransitionName(frustateImage)!!
+//        )
+//        startActivity(intent14, options.toBundle())
+//        println("When Frustate Card Clicked")
+//    }
+//
+//    fun whenSick(view: View){
+//        val sickImage = findViewById<ImageView>(R.id.whenSickImage)
+//        val intent15 = Intent(this, WhenSick::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, sickImage, ViewCompat.getTransitionName(sickImage)!!
+//        )
+//        startActivity(intent15, options.toBundle())
+//        println("When Sick Card Clicked")
+//    }
+//
+//    fun whenCantSleep(view: View){
+//        val cantSleepImage = findViewById<ImageView>(R.id.whenCantSleepImage)
+//        val intent16 = Intent(this, WhenCantSleep::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, cantSleepImage, ViewCompat.getTransitionName(cantSleepImage)!!
+//        )
+//        startActivity(intent16, options.toBundle())
+//        println("When Can't Sleep Card Clicked")
+//    }
+//
+//    fun whenWorried(view: View){
+//        val worriedImage = findViewById<ImageView>(R.id.whenWorriedImage)
+//        val intent17 = Intent(this, WhenWorried::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, worriedImage, ViewCompat.getTransitionName(worriedImage)!!
+//        )
+//        startActivity(intent17, options.toBundle())
+//        println("When Worried Card Clicked")
+//    }
+//
+//    fun whenInsecure(view: View){
+//        val insecureImage = findViewById<ImageView>(R.id.whenInsecureImage)
+//        val intent18 = Intent(this, WhenInsecure::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, insecureImage, ViewCompat.getTransitionName(insecureImage)!!
+//        )
+//        startActivity(intent18, options.toBundle())
+//        println("When Insecure Card Clicked")
+//    }
+//
+//    fun whenBored(view: View){
+//        val boredImage = findViewById<ImageView>(R.id.whenBoredImage)
+//        val intent19 = Intent(this, WhenBored::class.java)
+//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+//            this@MainActivity, boredImage, ViewCompat.getTransitionName(boredImage)!!
+//        )
+//        startActivity(intent19, options.toBundle())
+//        println("When Bored Card Clicked")
+//    }
 }

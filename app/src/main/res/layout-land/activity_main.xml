@@ -401,8 +401,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
+                    android:orientation="horizontal">
 
                     <androidx.gridlayout.widget.GridLayout
                         android:layout_width="match_parent"
@@ -553,7 +552,7 @@
                                     android:layout_height="match_parent"
                                     android:fontFamily="@font/raleway_extrabold"
                                     android:padding="20dp"
-                                    android:text="open when you need a compliment"
+                                    android:text="open when you need to hear a compliment"
                                     android:textColor="@color/black"
                                     android:textSize="20dp">
 
@@ -564,6 +563,276 @@
 
                         </androidx.cardview.widget.CardView>
 
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/miss"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenMiss">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenMissImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when5">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="open when you miss me"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/frustate"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenFrustate">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenFrustateImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when6">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="Open when your'e frustrated with college"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/sick"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenSick">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenSickImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when7">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="open when you're sick"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/sleep"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenCantSleep">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenCantSleepImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when8">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="open when you can't sleep"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/worried"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenWorried">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenWorriedImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when9">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="Open when you're worried about something"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/insecure"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenInsecure">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenInsecureImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when10">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="open when you're feeling insecure"
+                                    android:textColor="@color/white"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/bored"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="whenBored">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/whenBoredImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="140dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ayang1"
+                                    android:transitionName="when10">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="open when you're bored with me"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
 
                     </androidx.gridlayout.widget.GridLayout>
 

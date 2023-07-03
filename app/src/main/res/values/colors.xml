@@ -8,4 +8,11 @@
     <color name="orange">#FF8C00</color>
     <color name="Lonely">#7A819A</color>
     <color name="sage">#C3EDC0</color>
+    <color name="miss">#E1AEFF</color>
+    <color name="sleep">#4F709C</color>
+    <color name="sick">#99627A</color>
+    <color name="frustate">#435B66</color>
+    <color name="worried">#263A29</color>
+    <color name="insecure">#4C4B16</color>
+    <color name="bored">#804674</color>
 </resources>
