@@ -815,7 +815,7 @@
                                     android:layout_height="140dp"
                                     android:scaleType="centerCrop"
                                     android:src="@drawable/ayang1"
-                                    android:transitionName="when10">
+                                    android:transitionName="when11">
 
                                 </ImageView>
 

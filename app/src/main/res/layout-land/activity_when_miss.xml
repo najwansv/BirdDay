@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WhenHappy">
+    tools:context=".WhenMiss">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4"
-                android:transitionName="when1"
+                android:transitionName="when5"
                 app:srcCompat="@drawable/ayang1" />
 
         </LinearLayout>
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:padding="23dp"
                 android:fontFamily="@font/raleway_extrabold"
-                android:text="When you're Happy"
+                android:text="When you miss me"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.045"
@@ -84,7 +84,7 @@
                         android:fontFamily="@font/raleway_extrabold"
                         android:justificationMode="inter_word"
                         android:padding="23dp"
-                        android:text="My love, when youre overflowing with happiness, my heart dances alongside with yours. senyumanmu membuat hatiku berbunga-bunga. di momen ini, aku pengen ayang tau cintaku untukmu bertambah berlipat setiap hari bersama mu.\n\nSelamat bersenang senangg sayaang, aku berharap kamu dapat terus bahagia yaa walaupun tanpa ada aku disisi kamu. Cause u deserve all the happiness in the world. remember that i love you so much, and i will always do. \n\nI love you so much, xaviera. \n\nLove, \nYour one and only, \nAjuuan."
+                        android:text="when i miss u, i re-read our old messages yangg, keinget inget masa kita pdkt dan setelah confess ke kamu. aku baca baca in every good morning text that u sent, blushin maximal.\n\nKalo kamu kangen kamu ngapainn,, tapi kalo kamu baca ini pasti lagi kangenn yakaann hehehe, thankss for miss me cuz im always miss uu ayangg😊😊.\n\nAku ga kemana mana yangg. walau kamu kangen berat ataupun ringan aku bakal balik kok ke kamuu, jangan khawatirr yayayaa.\n\nWalau aku engga disampingmu but my heart alwas did yangg. Missing you maybe dont feel so good, but its also a reminderr of how deeply we care to each otherss yaakaann..\n\nAku jadi kangen dehhh :((("
                         android:textSize="16sp">
 
                     </TextView>
@@ -95,7 +95,7 @@
                         android:layout_gravity="center">
 
                         <TextView
-                            android:id="@+id/happyCount"
+                            android:id="@+id/missCount"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
@@ -108,19 +108,18 @@
                         </TextView>
 
                         <Button
-                            android:drawableEnd="@drawable/happy_icon"
-                            android:drawableTint="@color/black"
                             android:id="@+id/happyButton"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Happy Count!"
+                            android:text="how much u miss me?"
                             android:textColor="@color/black"
                             android:textSize="16sp"
-                            android:backgroundTint="@color/yellow"
+                            android:backgroundTint="@color/miss"
                             android:fontFamily="@font/raleway_extrabold"
                             android:onClick="addOne">
 
                         </Button>
+
 
                     </androidx.gridlayout.widget.GridLayout>
 

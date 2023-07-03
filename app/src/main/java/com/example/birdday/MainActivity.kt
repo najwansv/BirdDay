@@ -127,16 +127,16 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent12, options.toBundle())
         println("When Compliment Card Clicked")
     }
-//
-//    fun whenMiss(view: View){
-//        val missImage = findViewById<ImageView>(R.id.whenMissImage)
-//        val intent13 = Intent(this, WhenMiss::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, missImage, ViewCompat.getTransitionName(missImage)!!
-//        )
-//        startActivity(intent13, options.toBundle())
-//        println("When Miss Card Clicked")
-//    }
+
+    fun whenMiss(view: View){
+        val missImage = findViewById<ImageView>(R.id.whenMissImage)
+        val intent13 = Intent(this, WhenMiss::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, missImage, ViewCompat.getTransitionName(missImage)!!
+        )
+        startActivity(intent13, options.toBundle())
+        println("When Miss Card Clicked")
+    }
 //
 //    fun whenFrustate(view: View){
 //        val frustateImage = findViewById<ImageView>(R.id.whenFrustateImage)

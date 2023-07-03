@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WhenCompliment">
+    tools:context=".WhenMiss">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        android:transitionName="when4"
+        android:transitionName="when5"
         app:srcCompat="@drawable/ayang1" />
 
     <ImageButton
@@ -34,13 +34,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:paddingHorizontal="23dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="When you need hear a compliment"
+        android:text="When you miss me"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -71,7 +71,7 @@
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
                     android:padding="23dp"
-                    android:text="aku pengen ngasih tau kamu kalo kamu itu keren pake banget yangg🫠🫠, kalo kamu inget jaman SMA aku itu iri sama kamu karna kamu selalu dapet rangking diatas aku😠💢. ya sounds sepele tapi aku orangnya kagum sama orang yang pinter kaya kamuu😍😍.\n\nAku juga inget pas dimana kamu mimpin anak kelas pensi SMA.. itu kamu cerewet banget tapi jadinya hasilnya bagus maksimall sampe juara dua 🥈🎖🎖\n\nInget juga kamu suka marahin aku buat piket (my brain said: apansi cerewet banget bisa gak biasa aja?💢💢) but then i realize it was your inner leadership yangg, kamu punya sifat kepemimpinan dan tegas. kek lo keren banget nyet.\n\nGacuma pas jadi piket ajaa. inget kann yang pas makan-makan di rumah akuu.. siapasih yang bikin acara dirumahku sampe rela-rela jauh jauh buat kerumah aku buat bersihin rumah aku?? siapasihh yang nyemangatin anak anak buat bersih bersih?? its uu virraa sayanggg.. apa aku tidak terlihat mengagumi mu yangg?? I DOOO I LOVE U SINCE THEN💕💕\n\nThen goes to masa masa Itera kamuu. yang penuh perjuangann, effort kamu enggak terkalahkan yangg. tetep ngerjain tugas tugass video hasilnya baguss pulaa, quis quis tiap malam, ngelaprak sampe pagi. yes ure so good sayaangg. keren banget gokill pacar guehhh🥰🥰\n\nBelom lagi ditengah gempurannya itera kamu masih bisa buat belajarr ujiann utbk ataupun mandiri 🤯🤯. keren banget sih yang aku salut sama semua apa yang kamuu lakuin dimasa masa itu. like ure just too good yangg😍\n\nTerus sekarang kamu udah menjadi anak ilkom, kamu bener bener ngeluarin effort kamu di ilkom ini yangg.. mulai menjadi ketua kelass, niat ke perpusnass, ngikutin media profesionall Unas TV.. udah gitu kamu jadi hosttt jadi presenterr, jadi moderatorr alias. kamu keren bangett sayanggg.\n\nApasihh yang kurang dari dirimuu. u do always put effort to itt. aku sayang banget sama kamuu, effort mu, semuanyaa🥰😘😍🤩.\n\nKalo udah baca pencet tombolnya, nandain kamu udah baca berapa kalii"
+                    android:text="when i miss u, i re-read our old messages yangg, keinget inget masa kita pdkt dan setelah confess ke kamu. aku baca baca in every good morning text that u sent, blushin maximal.\n\nKalo kamu kangen kamu ngapainn,, tapi kalo kamu baca ini pasti lagi kangenn yakaann hehehe, thankss for miss me cuz im always miss uu ayangg😊😊.\n\nAku ga kemana mana yangg. walau kamu kangen berat ataupun ringan aku bakal balik kok ke kamuu, jangan khawatirr yayayaa.\n\nWalau aku engga disampingmu but my heart alwas did yangg. Missing you maybe dont feel so good, but its also a reminderr of how deeply we care to each otherss yaakaann..\n\nAku jadi kangen dehhh :((("
                     android:textSize="16sp">
 
                 </TextView>
@@ -82,7 +82,7 @@
                     android:layout_gravity="center">
 
                     <TextView
-                        android:id="@+id/readCount"
+                        android:id="@+id/missCount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -95,32 +95,20 @@
                     </TextView>
 
                     <Button
-                        android:id="@+id/readButton"
+                        android:id="@+id/happyButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="udah bacaaa"
+                        android:text="how much u miss me?"
                         android:textColor="@color/black"
                         android:textSize="16sp"
-                        android:backgroundTint="@color/sage"
+                        android:backgroundTint="@color/miss"
                         android:fontFamily="@font/raleway_extrabold"
-                        android:onClick="addOne"
-                        >
+                        android:onClick="addOne">
 
                     </Button>
 
 
                 </androidx.gridlayout.widget.GridLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/raleway_extrabold"
-                    android:justificationMode="inter_word"
-                    android:padding="23dp"
-                    android:text=""
-                    android:textSize="16sp">
-
-                </TextView>
 
             </LinearLayout>
 
