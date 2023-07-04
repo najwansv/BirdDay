@@ -20,6 +20,9 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".WhenFrustate"
+            android:exported="false" />
+        <activity
             android:name=".WhenMiss"
             android:exported="false" />
         <activity

@@ -12,6 +12,7 @@ import com.google.firebase.ktx.Firebase
 class WhenMiss : AppCompatActivity() {
 
     private lateinit var ref: DatabaseReference
+    private lateinit var ref2: DatabaseReference
     private val db = realtimeDatabase()
     var itungan = 0
 
@@ -20,7 +21,9 @@ class WhenMiss : AppCompatActivity() {
         setContentView(R.layout.activity_when_miss)
 
         ref = Firebase.database.getReference("Miss/missCount")
+        ref2 = Firebase.database.getReference("Miss/missCountBanget")
         val count = findViewById<TextView>(R.id.missCount)
+
         db.getCount(ref) { countValue ->
             count.text = countValue.toString()
         }
@@ -33,9 +36,13 @@ class WhenMiss : AppCompatActivity() {
         db.saveCount(ref, countInt + 1)
         itungan += 1
         if (itungan == 10){
-            Toast.makeText(this, "busett kalemm, kangen banget yahh ??", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "busett kalemm yaang, kangen banget yahh😅 ??", Toast.LENGTH_SHORT).show()
         } else if (itungan == 15){
-            Toast.makeText(this, "iya iyaaa nanti ketemu yaahh", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "iya iyaaa nanti ketemu yaahh😚😚", Toast.LENGTH_SHORT).show()
+            db.getCount(ref2) { countValue ->
+                db.saveCount(ref2, countValue + 1)
+            }
+            itungan = 0
         }
     }
 
