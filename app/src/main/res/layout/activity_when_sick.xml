@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WhenFrustate">
+    tools:context=".WhenSick">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        android:transitionName="when6"
+        android:transitionName="when7"
         app:srcCompat="@drawable/ayang1" />
 
     <ImageButton
@@ -34,13 +34,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="when your'e frustrated with college"
+        android:text="When you're sick 🤒"
         android:textSize="30sp"
-        android:paddingHorizontal="23dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -71,7 +71,7 @@
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
                     android:padding="23dp"
-                    android:text="Ayaangg im so sorryyy kamu pasti lagi sibuk sibuknya yahh sekarangg, tadi pagi kamu bilang rapat kemarin kamu itu isinya kegiatan tv mu dari juli-oktober ya dan bakal banyak kegiatann yahh :(, kamu yang semangat yaa sayaangg. maaf aku engga bisa disamping kamu teruss, engga bisa bantu banyakk, tapi aku berusaha kok yaangg buat bisa ada terus di sisi kamuu.\n\nIngett yaa sayangg ketika kamu memulai kuliah inii, memulai ilkom dan tv mu inii kan its your dreaamm kaann, so keep pushing ittt, kamu pasti bisaa. dan juga kamu merasa punya potensi disiniii.. Semua orang juga merasa Stress yaangg just Take a deep Breath and letgoo okaayy. This phase is just temporary, and each obstacle in an oppurtunity for growthh.\n\nSemangat yaa sayaangg.. semangat mu semangat aku jugaaa. aku makin semangat buat nemenin kamuu, apapun ituuu\n\nMau kamu pulang malem, aku bisa relain kok yangg buat kamuu. aku cuma pengen kamu engga kenapa napa. Kamu harus tetep semangat yaahh kalo butuh semangat kamu tau harus ke siapaa..\n\nAku juga pengen bisa bantuin kamu apa aja yaa yangg. aku ini punya kamuu, kamu boleh minta tolong ke aku kapan sajaa yaaa yangg, dont worryy aku kalo engga bisa aku bilang kokk. kalo aku bisa ya berarti aku bisaaa.. bisa itu ngerjain statistik mu, nemenin ke perpusnas, jemput kamu pulangg, apa ajaaaa. kamu harus tetep rasional yah yangg. jangan menyerahh yaa sayaangg. i lovee uu moree sayaang.\n\nKalo butuh aku bilang!!!😠😠😠"
+                    android:text="Ayaaanggg 😥😥 Get well sooon yaahhh,, semoga lekas sembuhhh diangkat semua penyakitnyaaa. Kamu jaga kesehatan yaaa sayangkuu, jangan nyakitin diri sendirii, jangan nyari penyakit yaahh.. orang orang tersayang kamuu ngejaga kesehatan mu tapi kamu sendiri malah nyari penyakit,, jangan seperti itu yaa sayanggg💕💕.\n\nKamu sekarang lagi sakit perutkah😣😣?? kamu haid yaang?? minum air yang cukup yaahh. jangan minum obatmu itu kalo kamu gabutuh ya yanggg. jangan ketergantungaan. bolehnya kalo kamu emang lagi ada kegiatan ajaaa okayy sayangg. Semoga masa Sakit haid mu selesai yaa.. kalo butuh aku bilang okeeyy kamu kan bilang kalo lagi haid kamu clingyy, aku bakal usahain ada disisimu yaa sayanggg.\n\nAtau kamu lagi sakit yang lainn?? kamu coba cek ke dokter ya sayangg bareng ibumuu atau kalo urgent panggil aku juga bisaaa. Jaga makan kamu yaah. Turutin kata dokternyaa dan semoga kamu lekas sembuh ya sayanggg.\n\nI love youu and Get well soon ya sayaangg 💞💞💞\n\nJANGAN LUPA MAKANNNN😠😠 kan minum obat setelah mammmm"
                     android:textSize="16sp">
 
                 </TextView>

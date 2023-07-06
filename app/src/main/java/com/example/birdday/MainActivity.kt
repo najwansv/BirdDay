@@ -147,16 +147,16 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent14, options.toBundle())
         println("When Frustate Card Clicked")
     }
-//
-//    fun whenSick(view: View){
-//        val sickImage = findViewById<ImageView>(R.id.whenSickImage)
-//        val intent15 = Intent(this, WhenSick::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, sickImage, ViewCompat.getTransitionName(sickImage)!!
-//        )
-//        startActivity(intent15, options.toBundle())
-//        println("When Sick Card Clicked")
-//    }
+
+    fun whenSick(view: View){
+        val sickImage = findViewById<ImageView>(R.id.whenSickImage)
+        val intent15 = Intent(this, WhenSick::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, sickImage, ViewCompat.getTransitionName(sickImage)!!
+        )
+        startActivity(intent15, options.toBundle())
+        println("When Sick Card Clicked")
+    }
 //
 //    fun whenCantSleep(view: View){
 //        val cantSleepImage = findViewById<ImageView>(R.id.whenCantSleepImage)

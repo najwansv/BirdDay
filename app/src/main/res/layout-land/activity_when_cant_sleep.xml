@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenCantSleep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="backToMain"
+                android:backgroundTint="@color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chevron_left" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:transitionName="when8"
+                app:srcCompat="@drawable/ayang1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="23dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text="When you're sick 🤒"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:justificationMode="inter_word"
+                        android:padding="23dp"
+                        android:text="Ayaangg kamu kenapaa engga bisa tiduurr, ada yang kamu lagi pikirkan kaah, ada yang kamu khawatirkan kah.. udah yaang jangan dipikirin okaayy.. semua bakal baik baik sajaa, everythings gonna be fine sayaangg. Maaf yang mungkin sekarang aku udah tidur atau ketidurann, kalo kamu butuh akuu,, kamu bisa telfon aku sampe aku bangunn (kalo aku bangun hehe)..\n\nAtau ayang lagi nugas?? ayanng semangat yah nugassnyaa, pelan pelan tapi pasti bisa kokk kamu kamu kan 'The Amazing Xaviera' pfftt, ayang terus bertahan yaahh ,, kalo mau ditemenin nugas malemnya bilang aku okeeyy ill be ready for you sayang. I love youu so muchh, good nightt, sweet dreamss yaa dreams bout mee okaayy\n\nJangan sering sering gabisa tidurnyaa gasehat buat kesehatan kamuu, kalo ga ada apa apa ya tiduurrr.. hari besok mu masih panjaanggg\n\nSengaja engga ada emoji biar kamu ngantuk bacanya terus tidur (Hope it helps hehe)"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

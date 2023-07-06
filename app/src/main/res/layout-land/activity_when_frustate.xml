@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenCompliment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="backToMain"
+                android:backgroundTint="@color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chevron_left" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:transitionName="when6"
+                app:srcCompat="@drawable/ayang1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="23dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text="when your'e frustrated with college"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:justificationMode="inter_word"
+                        android:padding="23dp"
+                        android:text="Ayaangg im so sorryyy kamu pasti lagi sibuk sibuknya yahh sekarangg, tadi pagi kamu bilang rapat kemarin kamu itu isinya kegiatan tv mu dari juli-oktober ya dan bakal banyak kegiatann yahh :(, kamu yang semangat yaa sayaangg. maaf aku engga bisa disamping kamu teruss, engga bisa bantu banyakk, tapi aku berusaha kok yaangg buat bisa ada terus di sisi kamuu.\n\nIngett yaa sayangg ketika kamu memulai kuliah inii, memulai ilkom dan tv mu inii kan its your dreaamm kaann, so keep pushing ittt, kamu pasti bisaa. dan juga kamu merasa punya potensi disiniii.. Semua orang juga merasa Stress yaangg just Take a deep Breath and letgoo okaayy. This phase is just temporary, and each obstacle in an oppurtunity for growthh.\n\nSemangat yaa sayaangg.. semangat mu semangat aku jugaaa. aku makin semangat buat nemenin kamuu, apapun ituuu\n\nMau kamu pulang malem, aku bisa relain kok yangg buat kamuu. aku cuma pengen kamu engga kenapa napa. Kamu harus tetep semangat yaahh kalo butuh semangat kamu tau harus ke siapaa..\n\nAku juga pengen bisa bantuin kamu apa aja yaa yangg. aku ini punya kamuu, kamu boleh minta tolong ke aku kapan sajaa yaaa yangg, dont worryy aku kalo engga bisa aku bilang kokk. kalo aku bisa ya berarti aku bisaaa.. bisa itu ngerjain statistik mu, nemenin ke perpusnas, jemput kamu pulangg, apa ajaaaa. kamu harus tetep rasional yah yangg. jangan menyerahh yaa sayaangg. i lovee uu moree sayaang.\n\nKalo butuh aku bilang!!!😠😠😠"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

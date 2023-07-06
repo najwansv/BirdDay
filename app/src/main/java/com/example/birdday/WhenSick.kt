@@ -1,13 +1,14 @@
 package com.example.birdday
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class WhenFrustate : AppCompatActivity() {
+class WhenSick : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_when_frustate)
+        setContentView(R.layout.activity_when_sick)
     }
 
     fun backToMain(view: View) {

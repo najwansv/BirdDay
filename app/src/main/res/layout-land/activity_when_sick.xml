@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenHappy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="backToMain"
+                android:backgroundTint="@color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chevron_left" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:transitionName="when7"
+                app:srcCompat="@drawable/ayang1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="23dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text="When you're sick 🤒"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:justificationMode="inter_word"
+                        android:padding="23dp"
+                        android:text="Ayaaanggg 😥😥 Get well sooon yaahhh,, semoga lekas sembuhhh diangkat semua penyakitnyaaa. Kamu jaga kesehatan yaaa sayangkuu, jangan nyakitin diri sendirii, jangan nyari penyakit yaahh.. orang orang tersayang kamuu ngejaga kesehatan mu tapi kamu sendiri malah nyari penyakit,, jangan seperti itu yaa sayanggg💕💕.\n\nKamu sekarang lagi sakit perutkah😣😣?? kamu haid yaang?? minum air yang cukup yaahh. jangan minum obatmu itu kalo kamu gabutuh ya yanggg. jangan ketergantungaan. bolehnya kalo kamu emang lagi ada kegiatan ajaaa okayy sayangg. Semoga masa Sakit haid mu selesai yaa.. kalo butuh aku bilang okeeyy kamu kan bilang kalo lagi haid kamu clingyy, aku bakal usahain ada disisimu yaa sayanggg.\n\nAtau kamu lagi sakit yang lainn?? kamu coba cek ke dokter ya sayangg bareng ibumuu atau kalo urgent panggil aku juga bisaaa. Jaga makan kamu yaah. Turutin kata dokternyaa dan semoga kamu lekas sembuh ya sayanggg.\n\nI love youu and Get well soon ya sayaangg 💞💞💞\n\nJANGAN LUPA MAKANNNN😠😠 kan minum obat setelah mammmm"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
