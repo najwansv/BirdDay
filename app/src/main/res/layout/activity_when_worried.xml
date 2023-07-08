@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WhenHappy">
+    tools:context=".WhenWorried">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        android:transitionName="when1"
+        android:transitionName="when9"
         app:srcCompat="@drawable/ayang1" />
 
     <ImageButton
@@ -34,11 +34,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="When you're happy"
+        android:text="When you're worried about something😟"
         android:textSize="30sp"
+        android:paddingHorizontal="23dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,46 +71,34 @@
                     android:fontFamily="@font/raleway_extrabold"
                     android:justificationMode="inter_word"
                     android:padding="23dp"
-                    android:text="My love, when youre overflowing with happiness, my heart dances alongside with yours. senyumanmu membuat hatiku berbunga-bunga. di momen ini, aku pengen ayang tau cintaku untukmu bertambah berlipat setiap hari bersama mu.\n\nSelamat bersenang senangg sayaang, aku berharap kamu dapat terus bahagia yaa walaupun tanpa ada aku disisi kamu. Cause u deserve all the happiness in the world. remember that i love you so much, and i will always do. \n\nI love you so much, xaviera. \n\nLove, \nYour one and only, \nAjuuan."
+                    android:text="Sayaangg, u okaay?? if you open this then you are worryin bout something yaa.. kamu gapapa kah sayang?? ada yang pengen di ceritain?? langsung ajaa chat aku yaahh"
                     android:textSize="16sp">
 
                 </TextView>
 
-                <androidx.gridlayout.widget.GridLayout
+                <Button
+                    android:id="@+id/chatButton"
+                    android:drawableEnd="@drawable/chat"
+                    android:drawableTint="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat akuu sayang"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:textSize="23sp">
+                </Button>
+
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center">
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:justificationMode="inter_word"
+                    android:padding="23dp"
+                    android:text="iyaa isokey if u just wanna to read this, apa yang kamu cemasin sayang?? masa depan mu kahh?? karirmuu? atau kamu cemasin aku??\n\nKamu jangan terlalu overthink ya sayangg just do what u need to do rn, aku percayaa kok kamu bakal baik baik sajaa, u will be finee. aku selalu berdoa yang terbaik buat kamu yangg, buat kita.. ingetin ituu. semoga doa doa itu semua terkabull.\n\nuntuk saat ini ya kita jalanin hidup kita yang sekarang saja dengan lebih baik dari sebelumnyaa sayaangg, kalo kamu butuh bantuan aku ada disiniii,, klik tombol diatass okayy.\n\nKamu engga perlu khawatirin aku yaang aku bakal selalu mencoba untuk tidak akan mengecewakan kamu, aku engga akan macem macem buat kamu yaang. cuz i will try for us my lovee sayangg 💕💕"
+                    android:textSize="16sp">
 
-                    <TextView
-                        android:id="@+id/happyCount"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text=""
-                        android:fontFamily="@font/raleway_extrabold"
-                        android:textSize="35sp"
-                        app:layout_column="0"
-                        app:layout_gravity="fill">
-
-                    </TextView>
-
-                    <Button
-                        android:drawableEnd="@drawable/happy_icon"
-                        android:drawableTint="@color/black"
-                        android:id="@+id/happyButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Happy Count!"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:backgroundTint="@color/yellow"
-                        android:fontFamily="@font/raleway_extrabold"
-                        android:onClick="addOne">
-
-                    </Button>
-
-
-                </androidx.gridlayout.widget.GridLayout>
+                </TextView>
 
             </LinearLayout>
 
@@ -118,6 +106,6 @@
 
     </LinearLayout>
 
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

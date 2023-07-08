@@ -157,26 +157,26 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent15, options.toBundle())
         println("When Sick Card Clicked")
     }
-//
-//    fun whenCantSleep(view: View){
-//        val cantSleepImage = findViewById<ImageView>(R.id.whenCantSleepImage)
-//        val intent16 = Intent(this, WhenCantSleep::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, cantSleepImage, ViewCompat.getTransitionName(cantSleepImage)!!
-//        )
-//        startActivity(intent16, options.toBundle())
-//        println("When Can't Sleep Card Clicked")
-//    }
-//
-//    fun whenWorried(view: View){
-//        val worriedImage = findViewById<ImageView>(R.id.whenWorriedImage)
-//        val intent17 = Intent(this, WhenWorried::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, worriedImage, ViewCompat.getTransitionName(worriedImage)!!
-//        )
-//        startActivity(intent17, options.toBundle())
-//        println("When Worried Card Clicked")
-//    }
+
+    fun whenCantSleep(view: View){
+        val cantSleepImage = findViewById<ImageView>(R.id.whenCantSleepImage)
+        val intent16 = Intent(this, WhenCantSleep::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, cantSleepImage, ViewCompat.getTransitionName(cantSleepImage)!!
+        )
+        startActivity(intent16, options.toBundle())
+        println("When Can't Sleep Card Clicked")
+    }
+
+    fun whenWorried(view: View){
+        val worriedImage = findViewById<ImageView>(R.id.whenWorriedImage)
+        val intent17 = Intent(this, WhenWorried::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, worriedImage, ViewCompat.getTransitionName(worriedImage)!!
+        )
+        startActivity(intent17, options.toBundle())
+        println("When Worried Card Clicked")
+    }
 //
 //    fun whenInsecure(view: View){
 //        val insecureImage = findViewById<ImageView>(R.id.whenInsecureImage)

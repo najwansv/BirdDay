@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenWorried">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="backToMain"
+                android:backgroundTint="@color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chevron_left" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                android:transitionName="when9"
+                app:srcCompat="@drawable/ayang1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="23dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:text="When you're worried about something😟"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:justificationMode="inter_word"
+                        android:padding="23dp"
+                        android:text="Sayaangg, u okaay?? if you open this then you are worryin bout something yaa.. kamu gapapa kah sayang?? ada yang pengen di ceritain?? langsung ajaa chat aku yaahh"
+                        android:textSize="16sp">
+
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/chatButton"
+                        android:drawableEnd="@drawable/chat"
+                        android:drawableTint="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chat akuu sayang"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:textSize="23sp">
+                    </Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_extrabold"
+                        android:justificationMode="inter_word"
+                        android:padding="23dp"
+                        android:text="iyaa isokey if u just wanna to read this, apa yang kamu cemasin sayang?? masa depan mu kahh?? karirmuu? atau kamu cemasin aku??\n\nKamu jangan terlalu overthink ya sayangg just do what u need to do rn, aku percayaa kok kamu bakal baik baik sajaa, u will be finee. aku selalu berdoa yang terbaik buat kamu yangg, buat kita.. ingetin ituu. semoga doa doa itu semua terkabull.\n\nuntuk saat ini ya kita jalanin hidup kita yang sekarang saja dengan lebih baik dari sebelumnyaa sayaangg, kalo kamu butuh bantuan aku ada disiniii,, klik tombol diatass okayy.\n\nKamu engga perlu khawatirin aku yaang aku bakal selalu mencoba untuk tidak akan mengecewakan kamu, aku engga akan macem macem buat kamu yaang. cuz i will try for us my lovee sayangg 💕💕"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

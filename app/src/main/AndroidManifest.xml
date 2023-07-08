@@ -20,6 +20,9 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".WhenWorried"
+            android:exported="false" />
+        <activity
             android:name=".WhenCantSleep"
             android:exported="false" />
         <activity
