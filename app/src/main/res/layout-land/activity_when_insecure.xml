@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WhenSick">
+    tools:context=".WhenInsecure">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4"
-                android:transitionName="when7"
+                android:transitionName="when10"
                 app:srcCompat="@drawable/ayang1" />
 
         </LinearLayout>
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:padding="23dp"
                 android:fontFamily="@font/raleway_extrabold"
-                android:text="When you're sick 🤒"
+                android:text="When you're feeling insecure"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.045"
@@ -84,7 +84,7 @@
                         android:fontFamily="@font/raleway_extrabold"
                         android:justificationMode="inter_word"
                         android:padding="23dp"
-                        android:text="Ayaaanggg 😥😥 Get well sooon yaahhh,, semoga lekas sembuhhh diangkat semua penyakitnyaaa. Kamu jaga kesehatan yaaa sayangkuu, jangan nyakitin diri sendirii, jangan nyari penyakit yaahh.. orang orang tersayang kamuu ngejaga kesehatan mu tapi kamu sendiri malah nyari penyakit,, jangan seperti itu yaa sayanggg💕💕.\n\nKamu sekarang lagi sakit perutkah😣😣?? kamu haid yaang?? minum air yang cukup yaahh. jangan minum obatmu itu kalo kamu gabutuh ya yanggg. jangan ketergantungaan. bolehnya kalo kamu emang lagi ada kegiatan ajaaa okayy sayangg. Semoga masa Sakit haid mu selesai yaa.. kalo butuh aku bilang okeeyy kamu kan bilang kalo lagi haid kamu clingyy, aku bakal usahain ada disisimu yaa sayanggg.\n\nAtau kamu lagi sakit yang lainn?? kamu coba cek ke dokter ya sayangg bareng ibumuu atau kalo urgent panggil aku juga bisaaa. Jaga makan kamu yaah. Turutin kata dokternyaa dan semoga kamu lekas sembuh ya sayanggg.\n\nI love youu and Get well soon ya sayaangg 💞💞💞\n\nJANGAN LUPA MAKANNNN😠😠 kan minum obat setelah mammmm"
+                        android:text="AYANG HOW CAN BE GIRLZ ANGLE-LIKE LIKE YOUU CAN BE INSECUREE??\n\nyaanggg kamu kenapa insecureee.. kamu itu keren banget tauuuuu gakkk, everybodys gonna terpesona ke kamuuuu buset deh.\n\nkamu nih ya udah pinterrr bisa selamat dari itera teknik biosistem. terus lanjut di ilkom, kamu jadi ketua kelas di banyak kelass, jadi yang terpinterr, kek KEREN BANGET ??\n\nudah gitu kamu masuk unas tv dipilih jadi inti KEREN BANGET YAANGG, Keren bangett jadi host di PPN, kamu engga ada kurang kurangnya sayanggg.\n\njangan insecure donggg cantikkk. kamu cantik banget loh yanggg, how many times i should call you cantikkk huhh??, youre such an angellll.. bisa nyayi, pinter, main gitar, rambut bondol, news anchor, moderator, host, ketua kelas, inti unas tv kamu keren banget deh sayangkuu i lovee youu sayaangggg. jangan insecure yaahhh"
                         android:textSize="16sp">
 
                     </TextView>

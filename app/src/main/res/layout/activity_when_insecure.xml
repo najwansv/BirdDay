@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenInsecure">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        android:transitionName="when10"
+        app:srcCompat="@drawable/ayang1" />
+
+    <ImageButton
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="backToMain"
+        android:backgroundTint="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chevron_left" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="When you're feeling insecure"
+        android:paddingHorizontal="23dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:justificationMode="inter_word"
+                    android:padding="23dp"
+                    android:text="AYANG HOW CAN BE GIRLZ ANGLE-LIKE LIKE YOUU CAN BE INSECUREE??\n\nyaanggg kamu kenapa insecureee.. kamu itu keren banget tauuuuu gakkk, everybodys gonna terpesona ke kamuuuu buset deh.\n\nkamu nih ya udah pinterrr bisa selamat dari itera teknik biosistem. terus lanjut di ilkom, kamu jadi ketua kelas di banyak kelass, jadi yang terpinterr, kek KEREN BANGET ??\n\nudah gitu kamu masuk unas tv dipilih jadi inti KEREN BANGET YAANGG, Keren bangett jadi host di PPN, kamu engga ada kurang kurangnya sayanggg.\n\njangan insecure donggg cantikkk. kamu cantik banget loh yanggg, how many times i should call you cantikkk huhh??, youre such an angellll.. bisa nyayi, pinter, main gitar, rambut bondol, news anchor, moderator, host, ketua kelas, inti unas tv kamu keren banget deh sayangkuu i lovee youu sayaangggg. jangan insecure yaahhh"
+                    android:textSize="16sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

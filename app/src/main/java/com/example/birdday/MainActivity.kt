@@ -177,24 +177,15 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent17, options.toBundle())
         println("When Worried Card Clicked")
     }
-//
-//    fun whenInsecure(view: View){
-//        val insecureImage = findViewById<ImageView>(R.id.whenInsecureImage)
-//        val intent18 = Intent(this, WhenInsecure::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, insecureImage, ViewCompat.getTransitionName(insecureImage)!!
-//        )
-//        startActivity(intent18, options.toBundle())
-//        println("When Insecure Card Clicked")
-//    }
-//
-//    fun whenBored(view: View){
-//        val boredImage = findViewById<ImageView>(R.id.whenBoredImage)
-//        val intent19 = Intent(this, WhenBored::class.java)
-//        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
-//            this@MainActivity, boredImage, ViewCompat.getTransitionName(boredImage)!!
-//        )
-//        startActivity(intent19, options.toBundle())
-//        println("When Bored Card Clicked")
-//    }
+
+    fun whenInsecure(view: View){
+        val insecureImage = findViewById<ImageView>(R.id.whenInsecureImage)
+        val intent18 = Intent(this, WhenInsecure::class.java)
+        val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            this@MainActivity, insecureImage, ViewCompat.getTransitionName(insecureImage)!!
+        )
+        startActivity(intent18, options.toBundle())
+        println("When Insecure Card Clicked")
+    }
+
 }
