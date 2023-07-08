@@ -37,7 +37,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="Happy Anniversary 🎂"
+        android:text="@string/happy_anniversary_title"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -94,7 +94,7 @@
                     android:fontFamily="@font/raleway_extrabold"
                     android:gravity="center"
                     android:padding="23dp"
-                    android:text="PLAY"
+                    android:text="@string/play"
                     android:textSize="20sp">
 
                 </TextView>

@@ -28,9 +28,9 @@ class PageNajwan : AppCompatActivity() {
         }
 
         val carouselDataList = ArrayList<Int>()
-        carouselDataList.add(R.drawable.ayang1)
-        carouselDataList.add(R.drawable.ayang1)
-        carouselDataList.add(R.drawable.ayang1)
+        carouselDataList.add(R.drawable.najwan_page)
+        carouselDataList.add(R.drawable.najwan_page)
+        carouselDataList.add(R.drawable.najwan_page)
 
         viewPager.adapter = Carousel(carouselDataList)
 

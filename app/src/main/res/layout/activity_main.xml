@@ -360,7 +360,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="230dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ayang1">
+                                    android:src="@drawable/najwan_page">
 
                                 </ImageView>
 
@@ -424,7 +424,7 @@
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
                                 android:transitionName="when1"
-                                android:src="@drawable/ayang1">
+                                android:src="@drawable/when_happy">
 
                             </ImageView>
 
@@ -609,7 +609,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_frustate"
                                 android:transitionName="when6">
 
                             </ImageView>

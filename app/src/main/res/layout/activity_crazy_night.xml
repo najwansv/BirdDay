@@ -37,7 +37,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/raleway_extrabold"
-        android:text="Crazy Night🍆"
+        android:text="@string/crazy_night_title"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -58,7 +58,7 @@
             android:fontFamily="@font/raleway_extrabold"
             android:justificationMode="inter_word"
             android:padding="23dp"
-            android:text="HAYOOOOOOO,, ayang nichhh nakalllll bangeett hihhhh.. tapi aku sukaa hehehe 😋😋😋😋. buat ayang aku yang jagooo.. i proudly love uuu soo much yaangg.. i lovee uu for ur personality but that kisses tho... its greattt bonuss hehehheh.. theres still more episodes of crazy night kaannn??? i do love the quality timess we've madee, spent together. i do feel loveed and cared by uu"
+            android:text="@string/crazy_night1"
             android:textSize="16sp">
 
         </TextView>
@@ -83,7 +83,7 @@
                     android:justificationMode="inter_word"
                     android:paddingHorizontal="23dp"
                     android:textSize="16sp"
-                    android:text="tebakk kita udah berapa kali crazy night sejauh inii?">
+                    android:text="@string/crazy_night2">
 
                 </TextView>
 
@@ -157,7 +157,7 @@
                     android:fontFamily="@font/raleway_extrabold"
                     android:gravity="center"
                     android:padding="23dp"
-                    android:text="PLAY"
+                    android:text="@string/play"
                     android:textSize="20sp">
 
                 </TextView>
@@ -169,7 +169,7 @@
                     android:justificationMode="inter_word"
                     android:paddingHorizontal="23dp"
                     android:paddingBottom="23dp"
-                    android:text="ayaaangggg, i feelss u soo important to mee yang.. i cant lose uu.. i dont want to lose uu everrr.. i do feel so luck and fortunate to have uu ayangg. can we be last forever?? can we still have crazy night untill we got older.. i do love you so much sayangkuu xavieraa"
+                    android:text="@string/crazy_night3"
                     android:textSize="16sp">
 
                 </TextView>
