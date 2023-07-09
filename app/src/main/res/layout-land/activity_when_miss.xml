@@ -38,11 +38,11 @@
                 android:layout_height="200dp"
                 android:layout_margin="20dp"
                 android:scaleType="centerCrop"
+                android:transitionName="when5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4"
-                android:transitionName="when5"
-                app:srcCompat="@drawable/ayang1" />
+                app:srcCompat="@drawable/when_miss" />
 
         </LinearLayout>
 

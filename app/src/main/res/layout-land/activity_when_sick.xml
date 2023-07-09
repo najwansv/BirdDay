@@ -42,7 +42,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4"
                 android:transitionName="when7"
-                app:srcCompat="@drawable/ayang1" />
+                app:srcCompat="@drawable/when_sick" />
 
         </LinearLayout>
 

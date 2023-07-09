@@ -460,7 +460,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_sad"
                                 android:transitionName="when2">
 
                             </ImageView>
@@ -497,7 +497,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_lonely"
                                 android:transitionName="when3">
 
                             </ImageView>
@@ -534,7 +534,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/ayang_moder"
                                 android:transitionName="when4">
 
                             </ImageView>
@@ -571,7 +571,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_miss"
                                 android:transitionName="when5">
 
                             </ImageView>
@@ -646,7 +646,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_sick"
                                 android:transitionName="when7">
 
                             </ImageView>
@@ -683,7 +683,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_sleep"
                                 android:transitionName="when8">
 
                             </ImageView>
@@ -720,7 +720,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_worried"
                                 android:transitionName="when9">
 
                             </ImageView>
@@ -758,7 +758,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ayang1"
+                                android:src="@drawable/when_insecure"
                                 android:transitionName="when10">
 
                             </ImageView>

@@ -28,7 +28,7 @@ class PageXaviera : AppCompatActivity() {
         }
 
         val carouselDataList = ArrayList<Int>()
-        carouselDataList.add(R.drawable.ayang1)
+        carouselDataList.add(R.drawable.ayang_moder)
         carouselDataList.add(R.drawable.ayang_flower)
         carouselDataList.add(R.drawable.ayang_picnic)
         carouselDataList.add(R.drawable.ayang_dimsum)
