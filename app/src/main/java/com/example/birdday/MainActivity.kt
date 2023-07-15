@@ -9,13 +9,60 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.view.ViewCompat
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var refSafeplace: DatabaseReference
+    private lateinit var refAnniv: DatabaseReference
+    private lateinit var refSurprise: DatabaseReference
+    private lateinit var refCrazy: DatabaseReference
+    private lateinit var refN: DatabaseReference
+    private lateinit var refUs: DatabaseReference
+
+    private lateinit var refXaviera: DatabaseReference
+    private lateinit var refNajwan: DatabaseReference
+
+    private lateinit var refHappy: DatabaseReference
+    private lateinit var refSad: DatabaseReference
+    private lateinit var refLonely: DatabaseReference
+    private lateinit var refCompliment: DatabaseReference
+    private lateinit var refMiss: DatabaseReference
+    private lateinit var refFrustate: DatabaseReference
+    private lateinit var refSick: DatabaseReference
+    private lateinit var refCantSleep: DatabaseReference
+    private lateinit var refWorried: DatabaseReference
+    private lateinit var refInsecure: DatabaseReference
+
+    private val db = realtimeDatabase()
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        refSafeplace = FirebaseDatabase.getInstance().getReference("Card/safePlace")
+        refAnniv = FirebaseDatabase.getInstance().getReference("Card/Anniv")
+        refSurprise = FirebaseDatabase.getInstance().getReference("Card/Surprise")
+        refCrazy = FirebaseDatabase.getInstance().getReference("Card/Crazy")
+        refN = FirebaseDatabase.getInstance().getReference("Card/N")
+        refUs = FirebaseDatabase.getInstance().getReference("Card/Us")
+
+        refXaviera = FirebaseDatabase.getInstance().getReference("justUs/Xaviera")
+        refNajwan = FirebaseDatabase.getInstance().getReference("justUs/Najwan")
+
+        refHappy = FirebaseDatabase.getInstance().getReference("When/Happy")
+        refSad = FirebaseDatabase.getInstance().getReference("When/Sad")
+        refLonely = FirebaseDatabase.getInstance().getReference("When/Lonely")
+        refCompliment = FirebaseDatabase.getInstance().getReference("When/Compliment")
+        refMiss = FirebaseDatabase.getInstance().getReference("When/Miss")
+        refFrustate = FirebaseDatabase.getInstance().getReference("When/Frustate")
+        refSick = FirebaseDatabase.getInstance().getReference("When/Sick")
+        refCantSleep = FirebaseDatabase.getInstance().getReference("When/CantSleep")
+        refWorried = FirebaseDatabase.getInstance().getReference("When/Worried")
+        refInsecure = FirebaseDatabase.getInstance().getReference("When/Insecure")
+
         SongStorage(this).initializeFirebaseApp()
         SongStorage(this).initializeFirebaseStorage()
     }
@@ -27,6 +74,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent1, options.toBundle())
         println("Safe Place Card Clicked")
+        db.getCount(refSafeplace) { countValue ->
+            db.saveCount(refSafeplace, countValue + 1)
+        }
     }
 
     fun happyAnnivCard(view: View) {
@@ -38,6 +88,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent2, options.toBundle())
         println("Happy Anniversary Card Clicked")
+        db.getCount(refAnniv) { countValue ->
+            db.saveCount(refAnniv, countValue + 1)
+        }
     }
 
     fun whatASurpriseCard(view: View) {
@@ -48,6 +101,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent3, options.toBundle())
         println("What a Surprise Card Clicked")
+        db.getCount(refSurprise) { countValue ->
+            db.saveCount(refSurprise, countValue + 1)
+        }
     }
     fun crazyNightCard(view: View) {
         val crazyNightImage = findViewById<ImageView>(R.id.crazyNightImage)
@@ -57,6 +113,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent4, options.toBundle())
         println("Crazy Night Card Clicked")
+        db.getCount(refCrazy) { countValue ->
+            db.saveCount(refCrazy, countValue + 1)
+        }
     }
 
     fun nCard(view: View) {
@@ -67,6 +126,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent5, options.toBundle())
         println("N Card Clicked")
+        db.getCount(refN) { countValue ->
+            db.saveCount(refN, countValue + 1)
+        }
     }
 
     fun usCard(view: View) {
@@ -77,16 +139,25 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent6, options.toBundle())
         println("Us Card Clicked")
+        db.getCount(refUs) { countValue ->
+            db.saveCount(refUs, countValue + 1)
+        }
     }
 
     fun xavieraSayang(view: View){
         val intent7 = Intent(this, PageXaviera::class.java)
         startActivity(intent7)
+        db.getCount(refXaviera) { countValue ->
+            db.saveCount(refXaviera, countValue + 1)
+        }
     }
 
     fun najwanSayang(view: View){
         val intent8 = Intent(this, PageNajwan::class.java)
         startActivity(intent8)
+        db.getCount(refNajwan) { countValue ->
+            db.saveCount(refNajwan, countValue + 1)
+        }
     }
     fun whenHappy(view: View){
         val happyImage = findViewById<ImageView>(R.id.whenHappyImage)
@@ -96,6 +167,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent9, options.toBundle())
         println("When Happy Card Clicked")
+        db.getCount(refHappy) { countValue ->
+            db.saveCount(refHappy, countValue + 1)
+        }
     }
 
     fun whenSad(view: View){
@@ -106,6 +180,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent10, options.toBundle())
         println("When Sad Card Clicked")
+        db.getCount(refSad) { countValue ->
+            db.saveCount(refSad, countValue + 1)
+        }
     }
 
     fun whenLonely(view: View){
@@ -116,6 +193,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent11, options.toBundle())
         println("When Lonely Card Clicked")
+        db.getCount(refLonely) { countValue ->
+            db.saveCount(refLonely, countValue + 1)
+        }
     }
 
     fun whenCompliment(view: View){
@@ -126,6 +206,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent12, options.toBundle())
         println("When Compliment Card Clicked")
+        db.getCount(refCompliment) { countValue ->
+            db.saveCount(refCompliment, countValue + 1)
+        }
     }
 
     fun whenMiss(view: View){
@@ -136,6 +219,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent13, options.toBundle())
         println("When Miss Card Clicked")
+        db.getCount(refMiss) { countValue ->
+            db.saveCount(refMiss, countValue + 1)
+        }
     }
 
     fun whenFrustate(view: View){
@@ -146,6 +232,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent14, options.toBundle())
         println("When Frustate Card Clicked")
+        db.getCount(refFrustate) { countValue ->
+            db.saveCount(refFrustate, countValue + 1)
+        }
     }
 
     fun whenSick(view: View){
@@ -156,6 +245,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent15, options.toBundle())
         println("When Sick Card Clicked")
+        db.getCount(refSick) { countValue ->
+            db.saveCount(refSick, countValue + 1)
+        }
     }
 
     fun whenCantSleep(view: View){
@@ -166,6 +258,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent16, options.toBundle())
         println("When Can't Sleep Card Clicked")
+        db.getCount(refCantSleep) { countValue ->
+            db.saveCount(refCantSleep, countValue + 1)
+        }
     }
 
     fun whenWorried(view: View){
@@ -176,6 +271,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent17, options.toBundle())
         println("When Worried Card Clicked")
+        db.getCount(refWorried) { countValue ->
+            db.saveCount(refWorried, countValue + 1)
+        }
     }
 
     fun whenInsecure(view: View){
@@ -186,6 +284,9 @@ class MainActivity : AppCompatActivity() {
         )
         startActivity(intent18, options.toBundle())
         println("When Insecure Card Clicked")
+        db.getCount(refInsecure) { countValue ->
+            db.saveCount(refInsecure, countValue + 1)
+        }
     }
 
 }
