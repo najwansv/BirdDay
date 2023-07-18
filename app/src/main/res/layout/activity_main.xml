@@ -380,6 +380,44 @@
 
                         </androidx.cardview.widget.CardView>
 
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="#FFFFFF"
+                            app:cardCornerRadius="12dp"
+                            android:onClick="UsDiary">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/UsDiaryImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="230dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/najwan_page">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/raleway_extrabold"
+                                    android:padding="20dp"
+                                    android:text="Us Diary ♥♥"
+                                    android:textColor="#1ed760"
+                                    android:textSize="20dp">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
                     </androidx.gridlayout.widget.GridLayout>
 
                 </LinearLayout>
@@ -460,7 +498,7 @@
                                 android:layout_height="200dp"
                                 android:layout_gravity="center"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/when_sad"
+                                android:src="@drawable/n_photo"
                                 android:transitionName="when2">
 
                             </ImageView>

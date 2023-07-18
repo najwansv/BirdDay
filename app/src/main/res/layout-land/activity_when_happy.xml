@@ -124,13 +124,17 @@
 
                     </androidx.gridlayout.widget.GridLayout>
 
-                    <TextView
+                    <EditText
+                        android:id="@+id/whyHappy"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:hint="Ceritainn dongg happy kenapaaa"
+                        android:inputType="textMultiLine"
                         android:fontFamily="@font/raleway_extrabold"
-                        android:justificationMode="inter_word">
+                        android:textSize="16sp">
 
-                    </TextView>
+                    </EditText>
 
                 </LinearLayout>
 

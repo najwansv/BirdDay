@@ -159,6 +159,12 @@ class MainActivity : AppCompatActivity() {
             db.saveCount(refNajwan, countValue + 1)
         }
     }
+
+    fun UsDiary(view: View){
+        val intent11 = Intent(this, UsDiary::class.java)
+        startActivity(intent11)
+    }
+
     fun whenHappy(view: View){
         val happyImage = findViewById<ImageView>(R.id.whenHappyImage)
         val intent9 = Intent(this, WhenHappy::class.java)
