@@ -220,7 +220,7 @@
                                     android:layout_width="80dp"
                                     android:layout_height="80dp"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/n_photo"
+                                    android:src="@drawable/npoto"
                                     android:transitionName="pin_to_playlist5">
 
                                 </ImageView>
