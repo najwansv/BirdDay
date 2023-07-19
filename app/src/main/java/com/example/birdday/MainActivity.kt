@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var refXaviera: DatabaseReference
     private lateinit var refNajwan: DatabaseReference
+    private lateinit var refDiary: DatabaseReference
 
     private lateinit var refHappy: DatabaseReference
     private lateinit var refSad: DatabaseReference
@@ -51,6 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         refXaviera = FirebaseDatabase.getInstance().getReference("justUs/Xaviera")
         refNajwan = FirebaseDatabase.getInstance().getReference("justUs/Najwan")
+        refDiary = FirebaseDatabase.getInstance().getReference("justUs/Diary")
 
         refHappy = FirebaseDatabase.getInstance().getReference("When/Happy")
         refSad = FirebaseDatabase.getInstance().getReference("When/Sad")
@@ -163,6 +165,9 @@ class MainActivity : AppCompatActivity() {
     fun UsDiary(view: View){
         val intent11 = Intent(this, UsDiary::class.java)
         startActivity(intent11)
+        db.getCount(refDiary) { countValue ->
+            db.saveCount(refDiary, countValue + 1)
+        }
     }
 
     fun whenHappy(view: View){

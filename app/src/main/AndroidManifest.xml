@@ -20,6 +20,9 @@
         android:theme="@style/Theme.BirdDay"
         tools:targetApi="31">
         <activity
+            android:name=".HappyDiary"
+            android:exported="false" />
+        <activity
             android:name=".SadDiary"
             android:exported="false" />
         <activity

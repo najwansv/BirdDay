@@ -12,7 +12,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
-class SadDiary : AppCompatActivity() {
+class HappyDiary : AppCompatActivity() {
 
     private lateinit var ref: DatabaseReference
     private val itemList: ArrayList<String> = ArrayList()
@@ -20,13 +20,13 @@ class SadDiary : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sad_diary)
+        setContentView(R.layout.activity_happy_diary)
 
-        val listView = findViewById<ListView>(R.id.sadList)
+        val listView = findViewById<ListView>(R.id.happyList)
         adapter = ArrayAdapter(this, R.layout.custom_list, itemList)
         listView.adapter = adapter
 
-        ref = FirebaseDatabase.getInstance().getReference("Sad")
+        ref = FirebaseDatabase.getInstance().getReference("Happy")
 
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
@@ -39,7 +39,7 @@ class SadDiary : AppCompatActivity() {
                     val why = data.child("why").getValue(String::class.java)
 
                     if (index < dataCount - 1) {
-                        itemList.add("Date: $date \n\nkenapa ayang sedih?:\n$why\n")
+                        itemList.add("Date: $date \n\nkenapa ayang happyy?:\n$why\n")
                     }
                     index++
                 }
@@ -47,15 +47,13 @@ class SadDiary : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                Toast.makeText(this@SadDiary, "Error", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@HappyDiary, "Error", Toast.LENGTH_SHORT).show()
             }
         })
-
     }
+
 
     fun backToMain(view: View) {
         finish()
     }
-
-
 }
