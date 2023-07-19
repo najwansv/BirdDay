@@ -39,7 +39,7 @@ class SadDiary : AppCompatActivity() {
                     val why = data.child("why").getValue(String::class.java)
 
                     if (index < dataCount - 1) {
-                        itemList.add("Date: $date \n\nkenapa ayang sedih?:\n$why\n")
+                        itemList.add("Date: $date\n\n$why\n")
                     }
                     index++
                 }

@@ -52,16 +52,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/raleway_extrabold"
-            android:justificationMode="inter_word"
-            android:padding="23dp"
-            android:text="hallooo ayaangg,, selamat dataang di safeplace muuu (akuu / najwan ganteng banget gokil) hehehe 😀, ayaang kamu kalo butuh tempatt curhaat atau mau ngegosip hal apapunnn, im ready to hear uu ayaangg everytimee everywheeree anywhenn yaaa. kalo kamu butuh aku bilang ajaa yaangg, cuz im glad to hear uur voicee, to be with uuu all the timee i love youu soo muchh ayaangg ♥♥♥..\n\nwell ini ada laguu untuk kamuu, kamu boleh bangett plaay setiap hari setiap saat yaa yang.tapi ini cuma satu lagu sihh.. yaa hopee uu likee thiss application ayaang."
-            android:textSize="16sp">
-
-        </TextView>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -75,6 +65,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway_extrabold"
+                    android:justificationMode="inter_word"
+                    android:padding="23dp"
+                    android:text="hallooo ayaangg,, selamat dataang di safeplace muuu (akuu / najwan ganteng banget gokil) hehehe 😀, ayaang kamu kalo butuh tempatt curhaat atau mau ngegosip hal apapunnn, im ready to hear uu ayaangg everytimee everywheeree anywhenn yaaa. kalo kamu butuh aku bilang ajaa yaangg, cuz im glad to hear uur voicee, to be with uuu all the timee i love youu soo muchh ayaangg ♥♥♥..\n\nwell ini ada laguu untuk kamuu, kamu boleh bangett plaay setiap hari setiap saat yaa yang.tapi ini cuma satu lagu sihh.. yaa hopee uu likee thiss application ayaang."
+                    android:textSize="16sp">
+
+                </TextView>
 
                 <ImageButton
                     android:id="@+id/imageView2"

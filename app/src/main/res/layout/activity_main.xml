@@ -620,7 +620,7 @@
                                 android:fontFamily="@font/raleway_extrabold"
                                 android:gravity="center"
                                 android:paddingHorizontal="15dp"
-                                android:text="Open when you\nmiss sme"
+                                android:text="Open when you\nmiss me"
                                 android:textColor="@color/black"
                                 android:textSize="20sp" />
 
